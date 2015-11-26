@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9343F3CC1C07258C005CFBFF /* DevelopersGuide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3A11C07258C005CFBFF /* DevelopersGuide.pdf */; };
+		9343F3CD1C07258C005CFBFF /* Document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3A21C07258C005CFBFF /* Document.pdf */; };
+		9343F3CE1C07258C005CFBFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3A41C07258C005CFBFF /* AppDelegate.m */; };
+		9343F3CF1C07258C005CFBFF /* CIDType0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3A61C07258C005CFBFF /* CIDType0Font.m */; };
+		9343F3D01C07258C005CFBFF /* CIDType2Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3A81C07258C005CFBFF /* CIDType2Font.m */; };
+		9343F3D11C07258C005CFBFF /* CMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3AA1C07258C005CFBFF /* CMap.m */; };
+		9343F3D21C07258C005CFBFF /* CompositeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3AC1C07258C005CFBFF /* CompositeFont.m */; };
+		9343F3D31C07258C005CFBFF /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3AE1C07258C005CFBFF /* Font.m */; };
+		9343F3D41C07258C005CFBFF /* FontCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3B01C07258C005CFBFF /* FontCollection.m */; };
+		9343F3D51C07258C005CFBFF /* FontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3B21C07258C005CFBFF /* FontDescriptor.m */; };
+		9343F3D61C07258C005CFBFF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3B31C07258C005CFBFF /* Info.plist */; };
+		9343F3D71C07258C005CFBFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3B41C07258C005CFBFF /* main.m */; };
+		9343F3D81C07258C005CFBFF /* MMType1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3B61C07258C005CFBFF /* MMType1Font.m */; };
+		9343F3D91C07258C005CFBFF /* RenderingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3B81C07258C005CFBFF /* RenderingState.m */; };
+		9343F3DA1C07258C005CFBFF /* Scanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3BA1C07258C005CFBFF /* Scanner.m */; };
+		9343F3DB1C07258C005CFBFF /* Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3BC1C07258C005CFBFF /* Selection.m */; };
+		9343F3DC1C07258C005CFBFF /* SimpleFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3BE1C07258C005CFBFF /* SimpleFont.m */; };
+		9343F3DD1C07258C005CFBFF /* StringDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3C01C07258C005CFBFF /* StringDetector.m */; };
+		9343F3DE1C07258C005CFBFF /* TrueTypeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3C21C07258C005CFBFF /* TrueTypeFont.m */; };
+		9343F3DF1C07258C005CFBFF /* Type0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3C41C07258C005CFBFF /* Type0Font.m */; };
+		9343F3E01C07258C005CFBFF /* Type1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3C61C07258C005CFBFF /* Type1Font.m */; };
+		9343F3E11C07258C005CFBFF /* Type3Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3C81C07258C005CFBFF /* Type3Font.m */; };
+		9343F3E21C07258C005CFBFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3CA1C07258C005CFBFF /* ViewController.m */; };
+		9343F3E31C07258C005CFBFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3CB1C07258C005CFBFF /* Images.xcassets */; };
+		9343F3EE1C07265D005CFBFF /* VirtuosoPDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9343F39E1C072538005CFBFF /* VirtuosoPDFKit.framework */; };
+		9343F3F51C0727D2005CFBFF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3F41C0727D2005CFBFF /* Info.plist */; };
+		9343F3F61C07282E005CFBFF /* VZPDFKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3F21C0727C7005CFBFF /* VZPDFKitDemoTests.m */; };
+		9343F3FC1C072B56005CFBFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3F81C072B56005CFBFF /* LaunchScreen.xib */; };
+		9343F3FD1C072B56005CFBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3FA1C072B56005CFBFF /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		902D283A1AC3AE6100BADF2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902D28181AC3AE6100BADF2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902D281F1AC3AE6100BADF2C;
+			remoteInfo = LazyPDFKitDemo;
+		};
+		9343F39D1C072538005CFBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9343F3971C072538005CFBFF /* VirtuosoPDFKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9048384A1AB6A8C600E62E60;
+			remoteInfo = VirtuosoPDFKit;
+		};
+		9343F39F1C072538005CFBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9343F3971C072538005CFBFF /* VirtuosoPDFKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 904838551AB6A8C600E62E60;
+			remoteInfo = VirtuosoPDFKitTests;
+		};
+		9343F3EC1C072656005CFBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9343F3971C072538005CFBFF /* VirtuosoPDFKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 904838491AB6A8C600E62E60;
+			remoteInfo = VirtuosoPDFKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		902D284F1AC3AF7E00BADF2C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		902D28201AC3AE6100BADF2C /* VZPDFKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VZPDFKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		902D28391AC3AE6100BADF2C /* VZPDFKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VZPDFKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9343F3971C072538005CFBFF /* VirtuosoPDFKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VirtuosoPDFKit.xcodeproj; path = ../VirtuosoPDFKit.xcodeproj; sourceTree = "<group>"; };
+		9343F3A11C07258C005CFBFF /* DevelopersGuide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = DevelopersGuide.pdf; path = VZPDFKitDemo/DevelopersGuide.pdf; sourceTree = SOURCE_ROOT; };
+		9343F3A21C07258C005CFBFF /* Document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Document.pdf; path = VZPDFKitDemo/Document.pdf; sourceTree = SOURCE_ROOT; };
+		9343F3A31C07258C005CFBFF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VZPDFKitDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		9343F3A41C07258C005CFBFF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VZPDFKitDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		9343F3A51C07258C005CFBFF /* CIDType0Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CIDType0Font.h; path = VZPDFKitDemo/CIDType0Font.h; sourceTree = SOURCE_ROOT; };
+		9343F3A61C07258C005CFBFF /* CIDType0Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CIDType0Font.m; path = VZPDFKitDemo/CIDType0Font.m; sourceTree = SOURCE_ROOT; };
+		9343F3A71C07258C005CFBFF /* CIDType2Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CIDType2Font.h; path = VZPDFKitDemo/CIDType2Font.h; sourceTree = SOURCE_ROOT; };
+		9343F3A81C07258C005CFBFF /* CIDType2Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CIDType2Font.m; path = VZPDFKitDemo/CIDType2Font.m; sourceTree = SOURCE_ROOT; };
+		9343F3A91C07258C005CFBFF /* CMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMap.h; path = VZPDFKitDemo/CMap.h; sourceTree = SOURCE_ROOT; };
+		9343F3AA1C07258C005CFBFF /* CMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMap.m; path = VZPDFKitDemo/CMap.m; sourceTree = SOURCE_ROOT; };
+		9343F3AB1C07258C005CFBFF /* CompositeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompositeFont.h; path = VZPDFKitDemo/CompositeFont.h; sourceTree = SOURCE_ROOT; };
+		9343F3AC1C07258C005CFBFF /* CompositeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompositeFont.m; path = VZPDFKitDemo/CompositeFont.m; sourceTree = SOURCE_ROOT; };
+		9343F3AD1C07258C005CFBFF /* Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Font.h; path = VZPDFKitDemo/Font.h; sourceTree = SOURCE_ROOT; };
+		9343F3AE1C07258C005CFBFF /* Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Font.m; path = VZPDFKitDemo/Font.m; sourceTree = SOURCE_ROOT; };
+		9343F3AF1C07258C005CFBFF /* FontCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontCollection.h; path = VZPDFKitDemo/FontCollection.h; sourceTree = SOURCE_ROOT; };
+		9343F3B01C07258C005CFBFF /* FontCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FontCollection.m; path = VZPDFKitDemo/FontCollection.m; sourceTree = SOURCE_ROOT; };
+		9343F3B11C07258C005CFBFF /* FontDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontDescriptor.h; path = VZPDFKitDemo/FontDescriptor.h; sourceTree = SOURCE_ROOT; };
+		9343F3B21C07258C005CFBFF /* FontDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FontDescriptor.m; path = VZPDFKitDemo/FontDescriptor.m; sourceTree = SOURCE_ROOT; };
+		9343F3B31C07258C005CFBFF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VZPDFKitDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		9343F3B41C07258C005CFBFF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VZPDFKitDemo/main.m; sourceTree = SOURCE_ROOT; };
+		9343F3B51C07258C005CFBFF /* MMType1Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMType1Font.h; path = VZPDFKitDemo/MMType1Font.h; sourceTree = SOURCE_ROOT; };
+		9343F3B61C07258C005CFBFF /* MMType1Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMType1Font.m; path = VZPDFKitDemo/MMType1Font.m; sourceTree = SOURCE_ROOT; };
+		9343F3B71C07258C005CFBFF /* RenderingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenderingState.h; path = VZPDFKitDemo/RenderingState.h; sourceTree = SOURCE_ROOT; };
+		9343F3B81C07258C005CFBFF /* RenderingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RenderingState.m; path = VZPDFKitDemo/RenderingState.m; sourceTree = SOURCE_ROOT; };
+		9343F3B91C07258C005CFBFF /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Scanner.h; path = VZPDFKitDemo/Scanner.h; sourceTree = SOURCE_ROOT; };
+		9343F3BA1C07258C005CFBFF /* Scanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Scanner.m; path = VZPDFKitDemo/Scanner.m; sourceTree = SOURCE_ROOT; };
+		9343F3BB1C07258C005CFBFF /* Selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Selection.h; path = VZPDFKitDemo/Selection.h; sourceTree = SOURCE_ROOT; };
+		9343F3BC1C07258C005CFBFF /* Selection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Selection.m; path = VZPDFKitDemo/Selection.m; sourceTree = SOURCE_ROOT; };
+		9343F3BD1C07258C005CFBFF /* SimpleFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleFont.h; path = VZPDFKitDemo/SimpleFont.h; sourceTree = SOURCE_ROOT; };
+		9343F3BE1C07258C005CFBFF /* SimpleFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleFont.m; path = VZPDFKitDemo/SimpleFont.m; sourceTree = SOURCE_ROOT; };
+		9343F3BF1C07258C005CFBFF /* StringDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringDetector.h; path = VZPDFKitDemo/StringDetector.h; sourceTree = SOURCE_ROOT; };
+		9343F3C01C07258C005CFBFF /* StringDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringDetector.m; path = VZPDFKitDemo/StringDetector.m; sourceTree = SOURCE_ROOT; };
+		9343F3C11C07258C005CFBFF /* TrueTypeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrueTypeFont.h; path = VZPDFKitDemo/TrueTypeFont.h; sourceTree = SOURCE_ROOT; };
+		9343F3C21C07258C005CFBFF /* TrueTypeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrueTypeFont.m; path = VZPDFKitDemo/TrueTypeFont.m; sourceTree = SOURCE_ROOT; };
+		9343F3C31C07258C005CFBFF /* Type0Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Type0Font.h; path = VZPDFKitDemo/Type0Font.h; sourceTree = SOURCE_ROOT; };
+		9343F3C41C07258C005CFBFF /* Type0Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Type0Font.m; path = VZPDFKitDemo/Type0Font.m; sourceTree = SOURCE_ROOT; };
+		9343F3C51C07258C005CFBFF /* Type1Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Type1Font.h; path = VZPDFKitDemo/Type1Font.h; sourceTree = SOURCE_ROOT; };
+		9343F3C61C07258C005CFBFF /* Type1Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Type1Font.m; path = VZPDFKitDemo/Type1Font.m; sourceTree = SOURCE_ROOT; };
+		9343F3C71C07258C005CFBFF /* Type3Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Type3Font.h; path = VZPDFKitDemo/Type3Font.h; sourceTree = SOURCE_ROOT; };
+		9343F3C81C07258C005CFBFF /* Type3Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Type3Font.m; path = VZPDFKitDemo/Type3Font.m; sourceTree = SOURCE_ROOT; };
+		9343F3C91C07258C005CFBFF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = VZPDFKitDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		9343F3CA1C07258C005CFBFF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = VZPDFKitDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		9343F3CB1C07258C005CFBFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VZPDFKitDemo/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		9343F3F21C0727C7005CFBFF /* VZPDFKitDemoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFKitDemoTests.m; path = VZPDFKitDemoTests/VZPDFKitDemoTests.m; sourceTree = SOURCE_ROOT; };
+		9343F3F41C0727D2005CFBFF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VZPDFKitDemoTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		9343F3F91C072B56005CFBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = VZPDFKitDemo/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		9343F3FB1C072B56005CFBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = VZPDFKitDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902D281D1AC3AE6100BADF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343F3EE1C07265D005CFBFF /* VirtuosoPDFKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902D28361AC3AE6100BADF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		902D28171AC3AE6100BADF2C = {
+			isa = PBXGroup;
+			children = (
+				9343F3971C072538005CFBFF /* VirtuosoPDFKit.xcodeproj */,
+				902D28221AC3AE6100BADF2C /* VZPDFKitDemo */,
+				902D283C1AC3AE6100BADF2C /* VZPDFKitDemoTests */,
+				902D28211AC3AE6100BADF2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		902D28211AC3AE6100BADF2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				902D28201AC3AE6100BADF2C /* VZPDFKitDemo.app */,
+				902D28391AC3AE6100BADF2C /* VZPDFKitDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		902D28221AC3AE6100BADF2C /* VZPDFKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9343F3FA1C072B56005CFBFF /* Main.storyboard */,
+				9343F3A11C07258C005CFBFF /* DevelopersGuide.pdf */,
+				9343F3A21C07258C005CFBFF /* Document.pdf */,
+				9343F3E41C072599005CFBFF /* Scanner */,
+				9343F3A31C07258C005CFBFF /* AppDelegate.h */,
+				9343F3A41C07258C005CFBFF /* AppDelegate.m */,
+				9343F3C91C07258C005CFBFF /* ViewController.h */,
+				9343F3CA1C07258C005CFBFF /* ViewController.m */,
+				9343F3CB1C07258C005CFBFF /* Images.xcassets */,
+				9343F3F81C072B56005CFBFF /* LaunchScreen.xib */,
+				902D28231AC3AE6100BADF2C /* Supporting Files */,
+			);
+			name = VZPDFKitDemo;
+			path = LazyPDFKitDemo;
+			sourceTree = "<group>";
+		};
+		902D28231AC3AE6100BADF2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9343F3B31C07258C005CFBFF /* Info.plist */,
+				9343F3B41C07258C005CFBFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		902D283C1AC3AE6100BADF2C /* VZPDFKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9343F3F21C0727C7005CFBFF /* VZPDFKitDemoTests.m */,
+				902D283D1AC3AE6100BADF2C /* Supporting Files */,
+			);
+			name = VZPDFKitDemoTests;
+			path = LazyPDFKitDemoTests;
+			sourceTree = "<group>";
+		};
+		902D283D1AC3AE6100BADF2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9343F3F41C0727D2005CFBFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9343F3981C072538005CFBFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9343F39E1C072538005CFBFF /* VirtuosoPDFKit.framework */,
+				9343F3A01C072538005CFBFF /* VirtuosoPDFKit.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9343F3E41C072599005CFBFF /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				9343F3A51C07258C005CFBFF /* CIDType0Font.h */,
+				9343F3A61C07258C005CFBFF /* CIDType0Font.m */,
+				9343F3A71C07258C005CFBFF /* CIDType2Font.h */,
+				9343F3A81C07258C005CFBFF /* CIDType2Font.m */,
+				9343F3A91C07258C005CFBFF /* CMap.h */,
+				9343F3AA1C07258C005CFBFF /* CMap.m */,
+				9343F3AB1C07258C005CFBFF /* CompositeFont.h */,
+				9343F3AC1C07258C005CFBFF /* CompositeFont.m */,
+				9343F3AD1C07258C005CFBFF /* Font.h */,
+				9343F3AE1C07258C005CFBFF /* Font.m */,
+				9343F3AF1C07258C005CFBFF /* FontCollection.h */,
+				9343F3B01C07258C005CFBFF /* FontCollection.m */,
+				9343F3B11C07258C005CFBFF /* FontDescriptor.h */,
+				9343F3B21C07258C005CFBFF /* FontDescriptor.m */,
+				9343F3B51C07258C005CFBFF /* MMType1Font.h */,
+				9343F3B61C07258C005CFBFF /* MMType1Font.m */,
+				9343F3B71C07258C005CFBFF /* RenderingState.h */,
+				9343F3B81C07258C005CFBFF /* RenderingState.m */,
+				9343F3B91C07258C005CFBFF /* Scanner.h */,
+				9343F3BA1C07258C005CFBFF /* Scanner.m */,
+				9343F3BB1C07258C005CFBFF /* Selection.h */,
+				9343F3BC1C07258C005CFBFF /* Selection.m */,
+				9343F3BD1C07258C005CFBFF /* SimpleFont.h */,
+				9343F3BE1C07258C005CFBFF /* SimpleFont.m */,
+				9343F3BF1C07258C005CFBFF /* StringDetector.h */,
+				9343F3C01C07258C005CFBFF /* StringDetector.m */,
+				9343F3C11C07258C005CFBFF /* TrueTypeFont.h */,
+				9343F3C21C07258C005CFBFF /* TrueTypeFont.m */,
+				9343F3C31C07258C005CFBFF /* Type0Font.h */,
+				9343F3C41C07258C005CFBFF /* Type0Font.m */,
+				9343F3C51C07258C005CFBFF /* Type1Font.h */,
+				9343F3C61C07258C005CFBFF /* Type1Font.m */,
+				9343F3C71C07258C005CFBFF /* Type3Font.h */,
+				9343F3C81C07258C005CFBFF /* Type3Font.m */,
+			);
+			name = Scanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		902D281F1AC3AE6100BADF2C /* VZPDFKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902D28431AC3AE6100BADF2C /* Build configuration list for PBXNativeTarget "VZPDFKitDemo" */;
+			buildPhases = (
+				902D281C1AC3AE6100BADF2C /* Sources */,
+				902D281D1AC3AE6100BADF2C /* Frameworks */,
+				902D281E1AC3AE6100BADF2C /* Resources */,
+				902D284F1AC3AF7E00BADF2C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9343F3ED1C072656005CFBFF /* PBXTargetDependency */,
+			);
+			name = VZPDFKitDemo;
+			productName = LazyPDFKitDemo;
+			productReference = 902D28201AC3AE6100BADF2C /* VZPDFKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		902D28381AC3AE6100BADF2C /* VZPDFKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902D28461AC3AE6100BADF2C /* Build configuration list for PBXNativeTarget "VZPDFKitDemoTests" */;
+			buildPhases = (
+				902D28351AC3AE6100BADF2C /* Sources */,
+				902D28361AC3AE6100BADF2C /* Frameworks */,
+				902D28371AC3AE6100BADF2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902D283B1AC3AE6100BADF2C /* PBXTargetDependency */,
+			);
+			name = VZPDFKitDemoTests;
+			productName = LazyPDFKitDemoTests;
+			productReference = 902D28391AC3AE6100BADF2C /* VZPDFKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		902D28181AC3AE6100BADF2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Lazyprogram;
+				TargetAttributes = {
+					902D281F1AC3AE6100BADF2C = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = T5WHAVBYZ2;
+					};
+					902D28381AC3AE6100BADF2C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 902D281F1AC3AE6100BADF2C;
+					};
+				};
+			};
+			buildConfigurationList = 902D281B1AC3AE6100BADF2C /* Build configuration list for PBXProject "VZPDFKitDemo" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 902D28171AC3AE6100BADF2C;
+			productRefGroup = 902D28211AC3AE6100BADF2C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9343F3981C072538005CFBFF /* Products */;
+					ProjectRef = 9343F3971C072538005CFBFF /* VirtuosoPDFKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				902D281F1AC3AE6100BADF2C /* VZPDFKitDemo */,
+				902D28381AC3AE6100BADF2C /* VZPDFKitDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9343F39E1C072538005CFBFF /* VirtuosoPDFKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VirtuosoPDFKit.framework;
+			remoteRef = 9343F39D1C072538005CFBFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9343F3A01C072538005CFBFF /* VirtuosoPDFKit.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VirtuosoPDFKit.xctest;
+			remoteRef = 9343F39F1C072538005CFBFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902D281E1AC3AE6100BADF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343F3FD1C072B56005CFBFF /* Main.storyboard in Resources */,
+				9343F3CC1C07258C005CFBFF /* DevelopersGuide.pdf in Resources */,
+				9343F3E31C07258C005CFBFF /* Images.xcassets in Resources */,
+				9343F3CD1C07258C005CFBFF /* Document.pdf in Resources */,
+				9343F3F51C0727D2005CFBFF /* Info.plist in Resources */,
+				9343F3FC1C072B56005CFBFF /* LaunchScreen.xib in Resources */,
+				9343F3D61C07258C005CFBFF /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902D28371AC3AE6100BADF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902D281C1AC3AE6100BADF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343F3DA1C07258C005CFBFF /* Scanner.m in Sources */,
+				9343F3CE1C07258C005CFBFF /* AppDelegate.m in Sources */,
+				9343F3DD1C07258C005CFBFF /* StringDetector.m in Sources */,
+				9343F3E21C07258C005CFBFF /* ViewController.m in Sources */,
+				9343F3D91C07258C005CFBFF /* RenderingState.m in Sources */,
+				9343F3DC1C07258C005CFBFF /* SimpleFont.m in Sources */,
+				9343F3D41C07258C005CFBFF /* FontCollection.m in Sources */,
+				9343F3D51C07258C005CFBFF /* FontDescriptor.m in Sources */,
+				9343F3D81C07258C005CFBFF /* MMType1Font.m in Sources */,
+				9343F3D11C07258C005CFBFF /* CMap.m in Sources */,
+				9343F3D21C07258C005CFBFF /* CompositeFont.m in Sources */,
+				9343F3DB1C07258C005CFBFF /* Selection.m in Sources */,
+				9343F3DE1C07258C005CFBFF /* TrueTypeFont.m in Sources */,
+				9343F3D71C07258C005CFBFF /* main.m in Sources */,
+				9343F3DF1C07258C005CFBFF /* Type0Font.m in Sources */,
+				9343F3D31C07258C005CFBFF /* Font.m in Sources */,
+				9343F3CF1C07258C005CFBFF /* CIDType0Font.m in Sources */,
+				9343F3E11C07258C005CFBFF /* Type3Font.m in Sources */,
+				9343F3D01C07258C005CFBFF /* CIDType2Font.m in Sources */,
+				9343F3E01C07258C005CFBFF /* Type1Font.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902D28351AC3AE6100BADF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343F3F61C07282E005CFBFF /* VZPDFKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		902D283B1AC3AE6100BADF2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902D281F1AC3AE6100BADF2C /* VZPDFKitDemo */;
+			targetProxy = 902D283A1AC3AE6100BADF2C /* PBXContainerItemProxy */;
+		};
+		9343F3ED1C072656005CFBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VirtuosoPDFKit;
+			targetProxy = 9343F3EC1C072656005CFBFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9343F3F81C072B56005CFBFF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9343F3F91C072B56005CFBFF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		9343F3FA1C072B56005CFBFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9343F3FB1C072B56005CFBFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		902D28411AC3AE6100BADF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		902D28421AC3AE6100BADF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		902D28441AC3AE6100BADF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = $SRCROOT/Framework;
+				INFOPLIST_FILE = "$(SRCROOT)/VZPDFKitDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = $SRCROOT/Framework;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afourtech.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		902D28451AC3AE6100BADF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = $SRCROOT/Framework;
+				INFOPLIST_FILE = "$(SRCROOT)/VZPDFKitDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = $SRCROOT/Framework;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afourtech.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+		902D28471AC3AE6100BADF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LazyPDFKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazyprogram.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazyPDFKitDemo.app/LazyPDFKitDemo";
+			};
+			name = Debug;
+		};
+		902D28481AC3AE6100BADF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LazyPDFKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazyprogram.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazyPDFKitDemo.app/LazyPDFKitDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902D281B1AC3AE6100BADF2C /* Build configuration list for PBXProject "VZPDFKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902D28411AC3AE6100BADF2C /* Debug */,
+				902D28421AC3AE6100BADF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902D28431AC3AE6100BADF2C /* Build configuration list for PBXNativeTarget "VZPDFKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902D28441AC3AE6100BADF2C /* Debug */,
+				902D28451AC3AE6100BADF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902D28461AC3AE6100BADF2C /* Build configuration list for PBXNativeTarget "VZPDFKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902D28471AC3AE6100BADF2C /* Debug */,
+				902D28481AC3AE6100BADF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 902D28181AC3AE6100BADF2C /* Project object */;
+}

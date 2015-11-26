@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Path" syncable="YES">
+        <attribute name="pageNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="textViewString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textViewX" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textViewY" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Path" positionX="-54" positionY="-9" width="128" height="135"/>
+    </elements>
+</model>

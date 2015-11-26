@@ -1,0 +1,1029 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		90D421411AC3943800D3CE2A /* VirtuosoPDFKitFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 90D421441AC3943800D3CE2A /* Build configuration list for PBXAggregateTarget "VirtuosoPDFKitFramework" */;
+			buildPhases = (
+				90D421451AC3945C00D3CE2A /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = VirtuosoPDFKitFramework;
+			productName = LazyPDFKitFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		834FC23F1BB95A4400132132 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 834FC23E1BB95A4400132132 /* triangle.png */; };
+		904838561AB6A8C600E62E60 /* VirtuosoPDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9048384A1AB6A8C600E62E60 /* VirtuosoPDFKit.framework */; };
+		9343F2951C0721C9005CFBFF /* Annotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2891C0721C9005CFBFF /* Annotation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2961C0721C9005CFBFF /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F28A1C0721C9005CFBFF /* Annotation.m */; };
+		9343F2971C0721C9005CFBFF /* ARCMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F28B1C0721C9005CFBFF /* ARCMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2981C0721C9005CFBFF /* CGPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F28C1C0721C9005CFBFF /* CGPDFDocument.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2991C0721C9005CFBFF /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F28D1C0721C9005CFBFF /* CGPDFDocument.m */; };
+		9343F29A1C0721C9005CFBFF /* ThumbsMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F28E1C0721C9005CFBFF /* ThumbsMainToolbar.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F29B1C0721C9005CFBFF /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F28F1C0721C9005CFBFF /* ThumbsMainToolbar.m */; };
+		9343F29C1C0721C9005CFBFF /* ThumbsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2901C0721C9005CFBFF /* ThumbsViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F29D1C0721C9005CFBFF /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2911C0721C9005CFBFF /* ThumbsViewController.m */; };
+		9343F29E1C0721C9005CFBFF /* UIXToolbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2921C0721C9005CFBFF /* UIXToolbarView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F29F1C0721C9005CFBFF /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2931C0721C9005CFBFF /* UIXToolbarView.m */; };
+		9343F2A01C0721C9005CFBFF /* VZPDFColorBarPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2941C0721C9005CFBFF /* VZPDFColorBarPicker.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2DD1C0721E0005CFBFF /* VZPDFColorIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2A11C0721E0005CFBFF /* VZPDFColorIndicatorView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2DE1C0721E0005CFBFF /* VZPDFColorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2A21C0721E0005CFBFF /* VZPDFColorIndicatorView.m */; };
+		9343F2DF1C0721E0005CFBFF /* VZPDFColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2A31C0721E0005CFBFF /* VZPDFColorPicker.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2E01C0721E0005CFBFF /* VZPDFColorPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2A41C0721E0005CFBFF /* VZPDFColorPickerController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2E11C0721E0005CFBFF /* VZPDFColorPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2A51C0721E0005CFBFF /* VZPDFColorPickerController.m */; };
+		9343F2E21C0721E0005CFBFF /* VZPDFColorPickerNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2A61C0721E0005CFBFF /* VZPDFColorPickerNavigationController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2E31C0721E0005CFBFF /* VZPDFColorPickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2A71C0721E0005CFBFF /* VZPDFColorPickerNavigationController.m */; };
+		9343F2E41C0721E0005CFBFF /* VZPDFColorSquarePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2A81C0721E0005CFBFF /* VZPDFColorSquarePicker.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2E51C0721E0005CFBFF /* VZPDFColorSquarePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2A91C0721E0005CFBFF /* VZPDFColorSquarePicker.m */; };
+		9343F2E61C0721E0005CFBFF /* VZPDFConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2AA1C0721E0005CFBFF /* VZPDFConstants.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2E71C0721E0005CFBFF /* VZPDFConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2AB1C0721E0005CFBFF /* VZPDFConstants.m */; };
+		9343F2E81C0721E0005CFBFF /* VZPDFContentPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2AC1C0721E0005CFBFF /* VZPDFContentPage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2E91C0721E0005CFBFF /* VZPDFContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2AD1C0721E0005CFBFF /* VZPDFContentPage.m */; };
+		9343F2EA1C0721E0005CFBFF /* VZPDFContentTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2AE1C0721E0005CFBFF /* VZPDFContentTile.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2EB1C0721E0005CFBFF /* VZPDFContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2AF1C0721E0005CFBFF /* VZPDFContentTile.m */; };
+		9343F2EC1C0721E0005CFBFF /* VZPDFContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2B01C0721E0005CFBFF /* VZPDFContentView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2ED1C0721E0005CFBFF /* VZPDFContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2B11C0721E0005CFBFF /* VZPDFContentView.m */; };
+		9343F2EE1C0721E0005CFBFF /* VZPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2B21C0721E0005CFBFF /* VZPDFDocument.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2EF1C0721E0005CFBFF /* VZPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2B31C0721E0005CFBFF /* VZPDFDocument.m */; };
+		9343F2F01C0721E0005CFBFF /* VZPDFDocumentOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2B41C0721E0005CFBFF /* VZPDFDocumentOutline.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2F11C0721E0005CFBFF /* VZPDFDocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2B51C0721E0005CFBFF /* VZPDFDocumentOutline.m */; };
+		9343F2F21C0721E0005CFBFF /* VZPDFDrawingTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2B61C0721E0005CFBFF /* VZPDFDrawingTools.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2F31C0721E0005CFBFF /* VZPDFDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2B71C0721E0005CFBFF /* VZPDFDrawingTools.m */; };
+		9343F2F41C0721E0005CFBFF /* VZPDFDrawingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2B81C0721E0005CFBFF /* VZPDFDrawingView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2F51C0721E0005CFBFF /* VZPDFDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2B91C0721E0005CFBFF /* VZPDFDrawingView.m */; };
+		9343F2F61C0721E0005CFBFF /* VZPDFDrawToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2BA1C0721E0005CFBFF /* VZPDFDrawToolbar.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2F71C0721E0005CFBFF /* VZPDFDrawToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2BB1C0721E0005CFBFF /* VZPDFDrawToolbar.m */; };
+		9343F2F81C0721E0005CFBFF /* VZPDFHSBSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2BC1C0721E0005CFBFF /* VZPDFHSBSupport.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2F91C0721E0005CFBFF /* VZPDFHSBSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2BD1C0721E0005CFBFF /* VZPDFHSBSupport.m */; };
+		9343F2FA1C0721E0005CFBFF /* VZPDFKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2BE1C0721E0005CFBFF /* VZPDFKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9343F2FB1C0721E0005CFBFF /* VZPDFMainPagebar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2BF1C0721E0005CFBFF /* VZPDFMainPagebar.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2FC1C0721E0005CFBFF /* VZPDFMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2C01C0721E0005CFBFF /* VZPDFMainPagebar.m */; };
+		9343F2FD1C0721E0005CFBFF /* VZPDFMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2C11C0721E0005CFBFF /* VZPDFMainToolbar.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F2FE1C0721E0005CFBFF /* VZPDFMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2C21C0721E0005CFBFF /* VZPDFMainToolbar.m */; };
+		9343F2FF1C0721E0005CFBFF /* VZPDFPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2C31C0721E0005CFBFF /* VZPDFPopoverController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F3001C0721E0005CFBFF /* VZPDFPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2C41C0721E0005CFBFF /* VZPDFPopoverController.m */; };
+		9343F3011C0721E0005CFBFF /* VZPDFPopoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2C51C0721E0005CFBFF /* VZPDFPopoverView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F3021C0721E0005CFBFF /* VZPDFPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2C61C0721E0005CFBFF /* VZPDFPopoverView.m */; };
+		9343F3031C0721E0005CFBFF /* VZPDFPropertyController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2C71C0721E0005CFBFF /* VZPDFPropertyController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F3041C0721E0005CFBFF /* VZPDFPropertyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2C81C0721E0005CFBFF /* VZPDFPropertyController.m */; };
+		9343F3051C0721E0005CFBFF /* VZPDFSourceColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2C91C0721E0005CFBFF /* VZPDFSourceColorView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F3061C0721E0005CFBFF /* VZPDFSourceColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2CA1C0721E0005CFBFF /* VZPDFSourceColorView.m */; };
+		9343F3071C0721E0005CFBFF /* VZPDFThumbCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2CB1C0721E0005CFBFF /* VZPDFThumbCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F3081C0721E0005CFBFF /* VZPDFThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2CC1C0721E0005CFBFF /* VZPDFThumbCache.m */; };
+		9343F3091C0721E0005CFBFF /* VZPDFThumbFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2CD1C0721E0005CFBFF /* VZPDFThumbFetch.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F30A1C0721E0005CFBFF /* VZPDFThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2CE1C0721E0005CFBFF /* VZPDFThumbFetch.m */; };
+		9343F30B1C0721E0005CFBFF /* VZPDFThumbQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2CF1C0721E0005CFBFF /* VZPDFThumbQueue.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F30C1C0721E0005CFBFF /* VZPDFThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2D01C0721E0005CFBFF /* VZPDFThumbQueue.m */; };
+		9343F30D1C0721E0005CFBFF /* VZPDFThumbRender.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2D11C0721E0005CFBFF /* VZPDFThumbRender.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F30E1C0721E0005CFBFF /* VZPDFThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2D21C0721E0005CFBFF /* VZPDFThumbRender.m */; };
+		9343F30F1C0721E0005CFBFF /* VZPDFThumbRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2D31C0721E0005CFBFF /* VZPDFThumbRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F3101C0721E0005CFBFF /* VZPDFThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2D41C0721E0005CFBFF /* VZPDFThumbRequest.m */; };
+		9343F3111C0721E0005CFBFF /* VZPDFThumbsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2D51C0721E0005CFBFF /* VZPDFThumbsView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F3121C0721E0005CFBFF /* VZPDFThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2D61C0721E0005CFBFF /* VZPDFThumbsView.m */; };
+		9343F3131C0721E0005CFBFF /* VZPDFThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2D71C0721E0005CFBFF /* VZPDFThumbView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F3141C0721E0005CFBFF /* VZPDFThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2D81C0721E0005CFBFF /* VZPDFThumbView.m */; };
+		9343F3151C0721E0005CFBFF /* VZPDFTouchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2D91C0721E0005CFBFF /* VZPDFTouchView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F3161C0721E0005CFBFF /* VZPDFTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2DA1C0721E0005CFBFF /* VZPDFTouchView.m */; };
+		9343F3171C0721E0005CFBFF /* VZPDFViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F2DB1C0721E0005CFBFF /* VZPDFViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F3181C0721E0005CFBFF /* VZPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F2DC1C0721E0005CFBFF /* VZPDFViewController.m */; };
+		9343F31B1C07220D005CFBFF /* PathDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F3191C07220D005CFBFF /* PathDataManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F31C1C07220D005CFBFF /* PathDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F31A1C07220D005CFBFF /* PathDataManager.m */; };
+		9343F3211C072236005CFBFF /* File.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F31D1C072236005CFBFF /* File.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F3221C072236005CFBFF /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F31E1C072236005CFBFF /* File.m */; };
+		9343F3231C072236005CFBFF /* VZPDFColorPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9343F31F1C072236005CFBFF /* VZPDFColorPickerView.xib */; };
+		9343F3241C072236005CFBFF /* VZPDFColorBarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3201C072236005CFBFF /* VZPDFColorBarPicker.m */; };
+		9343F3261C072261005CFBFF /* PathModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3251C072261005CFBFF /* PathModel.xcdatamodeld */; };
+		9343F3281C0722A4005CFBFF /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343F3271C0722A4005CFBFF /* Constants.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9343F3581C0722F9005CFBFF /* circle-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3291C0722F9005CFBFF /* circle-but.png */; };
+		9343F3591C0722F9005CFBFF /* circle-but@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F32A1C0722F9005CFBFF /* circle-but@2x.png */; };
+		9343F35A1C0722F9005CFBFF /* circlefill-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F32B1C0722F9005CFBFF /* circlefill-but.png */; };
+		9343F35B1C0722F9005CFBFF /* circlefill-but@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F32C1C0722F9005CFBFF /* circlefill-but@2x.png */; };
+		9343F35C1C0722F9005CFBFF /* clear-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F32D1C0722F9005CFBFF /* clear-but.png */; };
+		9343F35D1C0722F9005CFBFF /* clear-but@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F32E1C0722F9005CFBFF /* clear-but@2x.png */; };
+		9343F35E1C0722F9005CFBFF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F32F1C0722F9005CFBFF /* Default-568h@2x.png */; };
+		9343F35F1C0722F9005CFBFF /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3301C0722F9005CFBFF /* Default-667h@2x.png */; };
+		9343F3601C0722F9005CFBFF /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3311C0722F9005CFBFF /* Default-736h@3x.png */; };
+		9343F3611C0722F9005CFBFF /* done-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3321C0722F9005CFBFF /* done-but.png */; };
+		9343F3621C0722F9005CFBFF /* done-but@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3331C0722F9005CFBFF /* done-but@2x.png */; };
+		9343F3631C0722F9005CFBFF /* eraser-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3341C0722F9005CFBFF /* eraser-but.png */; };
+		9343F3641C0722F9005CFBFF /* eraser-but@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3351C0722F9005CFBFF /* eraser-but@2x.png */; };
+		9343F3651C0722F9005CFBFF /* LazyPDF-Button-H.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3361C0722F9005CFBFF /* LazyPDF-Button-H.png */; };
+		9343F3661C0722F9005CFBFF /* LazyPDF-Button-H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3371C0722F9005CFBFF /* LazyPDF-Button-H@2x.png */; };
+		9343F3671C0722F9005CFBFF /* LazyPDF-Button-N.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3381C0722F9005CFBFF /* LazyPDF-Button-N.png */; };
+		9343F3681C0722F9005CFBFF /* LazyPDF-Button-N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3391C0722F9005CFBFF /* LazyPDF-Button-N@2x.png */; };
+		9343F3691C0722F9005CFBFF /* LazyPDF-Email.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F33A1C0722F9005CFBFF /* LazyPDF-Email.png */; };
+		9343F36A1C0722F9005CFBFF /* LazyPDF-Email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F33B1C0722F9005CFBFF /* LazyPDF-Email@2x.png */; };
+		9343F36B1C0722F9005CFBFF /* LazyPDF-Export.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F33C1C0722F9005CFBFF /* LazyPDF-Export.png */; };
+		9343F36C1C0722F9005CFBFF /* LazyPDF-Export@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F33D1C0722F9005CFBFF /* LazyPDF-Export@2x.png */; };
+		9343F36D1C0722F9005CFBFF /* LazyPDF-Mark-N.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F33E1C0722F9005CFBFF /* LazyPDF-Mark-N.png */; };
+		9343F36E1C0722F9005CFBFF /* LazyPDF-Mark-N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F33F1C0722F9005CFBFF /* LazyPDF-Mark-N@2x.png */; };
+		9343F36F1C0722F9005CFBFF /* LazyPDF-Mark-Y.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3401C0722F9005CFBFF /* LazyPDF-Mark-Y.png */; };
+		9343F3701C0722F9005CFBFF /* LazyPDF-Mark-Y@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3411C0722F9005CFBFF /* LazyPDF-Mark-Y@2x.png */; };
+		9343F3711C0722F9005CFBFF /* LazyPDF-Print.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3421C0722F9005CFBFF /* LazyPDF-Print.png */; };
+		9343F3721C0722F9005CFBFF /* LazyPDF-Print@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3431C0722F9005CFBFF /* LazyPDF-Print@2x.png */; };
+		9343F3731C0722F9005CFBFF /* LazyPDF-Thumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3441C0722F9005CFBFF /* LazyPDF-Thumbs.png */; };
+		9343F3741C0722F9005CFBFF /* LazyPDF-Thumbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3451C0722F9005CFBFF /* LazyPDF-Thumbs@2x.png */; };
+		9343F3751C0722F9005CFBFF /* line-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3461C0722F9005CFBFF /* line-but.png */; };
+		9343F3761C0722F9005CFBFF /* line-but@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3471C0722F9005CFBFF /* line-but@2x.png */; };
+		9343F3771C0722F9005CFBFF /* pen-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3481C0722F9005CFBFF /* pen-but.png */; };
+		9343F3781C0722F9005CFBFF /* pen-but@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3491C0722F9005CFBFF /* pen-but@2x.png */; };
+		9343F3791C0722F9005CFBFF /* Pen-Button-Y.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F34A1C0722F9005CFBFF /* Pen-Button-Y.png */; };
+		9343F37A1C0722F9005CFBFF /* Pen-Button-Y@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F34B1C0722F9005CFBFF /* Pen-Button-Y@2x.png */; };
+		9343F37B1C0722F9005CFBFF /* Pen-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F34C1C0722F9005CFBFF /* Pen-Button.png */; };
+		9343F37C1C0722F9005CFBFF /* Pen-Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F34D1C0722F9005CFBFF /* Pen-Button@2x.png */; };
+		9343F37D1C0722F9005CFBFF /* redo-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F34E1C0722F9005CFBFF /* redo-but.png */; };
+		9343F37E1C0722F9005CFBFF /* redo-but@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F34F1C0722F9005CFBFF /* redo-but@2x.png */; };
+		9343F37F1C0722F9005CFBFF /* square-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3501C0722F9005CFBFF /* square-but.png */; };
+		9343F3801C0722F9005CFBFF /* square-but@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3511C0722F9005CFBFF /* square-but@2x.png */; };
+		9343F3811C0722F9005CFBFF /* squarefill-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3521C0722F9005CFBFF /* squarefill-but.png */; };
+		9343F3821C0722F9005CFBFF /* squarefill-but@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3531C0722F9005CFBFF /* squarefill-but@2x.png */; };
+		9343F3831C0722F9005CFBFF /* text-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3541C0722F9005CFBFF /* text-but.png */; };
+		9343F3841C0722F9005CFBFF /* text-but@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3551C0722F9005CFBFF /* text-but@2x.png */; };
+		9343F3851C0722F9005CFBFF /* undo-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3561C0722F9005CFBFF /* undo-but.png */; };
+		9343F3861C0722F9005CFBFF /* undo-but@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3571C0722F9005CFBFF /* undo-but@2x.png */; };
+		9343F3921C0724CE005CFBFF /* VZPDFKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3901C0724C9005CFBFF /* VZPDFKitTests.m */; };
+		9343F3941C0724DF005CFBFF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3931C0724DF005CFBFF /* Info.plist */; };
+		9343F3961C0724EC005CFBFF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3951C0724EC005CFBFF /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		904838571AB6A8C600E62E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904838411AB6A8C600E62E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904838491AB6A8C600E62E60;
+			remoteInfo = LazyPDFKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		834FC23E1BB95A4400132132 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = SOURCE_ROOT; };
+		83896F701B984B200097D5CA /* lazydylib1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = lazydylib1.o; path = usr/lib/lazydylib1.o; sourceTree = SDKROOT; };
+		9048384A1AB6A8C600E62E60 /* VirtuosoPDFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VirtuosoPDFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		904838551AB6A8C600E62E60 /* VirtuosoPDFKit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtuosoPDFKit.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9343F2891C0721C9005CFBFF /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Annotation.h; path = VZPDFKit/Annotation.h; sourceTree = SOURCE_ROOT; };
+		9343F28A1C0721C9005CFBFF /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Annotation.m; path = VZPDFKit/Annotation.m; sourceTree = SOURCE_ROOT; };
+		9343F28B1C0721C9005CFBFF /* ARCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARCMacros.h; path = VZPDFKit/ARCMacros.h; sourceTree = SOURCE_ROOT; };
+		9343F28C1C0721C9005CFBFF /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGPDFDocument.h; path = VZPDFKit/CGPDFDocument.h; sourceTree = SOURCE_ROOT; };
+		9343F28D1C0721C9005CFBFF /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGPDFDocument.m; path = VZPDFKit/CGPDFDocument.m; sourceTree = SOURCE_ROOT; };
+		9343F28E1C0721C9005CFBFF /* ThumbsMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThumbsMainToolbar.h; path = VZPDFKit/ThumbsMainToolbar.h; sourceTree = SOURCE_ROOT; };
+		9343F28F1C0721C9005CFBFF /* ThumbsMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThumbsMainToolbar.m; path = VZPDFKit/ThumbsMainToolbar.m; sourceTree = SOURCE_ROOT; };
+		9343F2901C0721C9005CFBFF /* ThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThumbsViewController.h; path = VZPDFKit/ThumbsViewController.h; sourceTree = SOURCE_ROOT; };
+		9343F2911C0721C9005CFBFF /* ThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThumbsViewController.m; path = VZPDFKit/ThumbsViewController.m; sourceTree = SOURCE_ROOT; };
+		9343F2921C0721C9005CFBFF /* UIXToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIXToolbarView.h; path = VZPDFKit/UIXToolbarView.h; sourceTree = SOURCE_ROOT; };
+		9343F2931C0721C9005CFBFF /* UIXToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIXToolbarView.m; path = VZPDFKit/UIXToolbarView.m; sourceTree = SOURCE_ROOT; };
+		9343F2941C0721C9005CFBFF /* VZPDFColorBarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFColorBarPicker.h; path = VZPDFKit/VZPDFColorBarPicker.h; sourceTree = SOURCE_ROOT; };
+		9343F2A11C0721E0005CFBFF /* VZPDFColorIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFColorIndicatorView.h; path = VZPDFKit/VZPDFColorIndicatorView.h; sourceTree = SOURCE_ROOT; };
+		9343F2A21C0721E0005CFBFF /* VZPDFColorIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFColorIndicatorView.m; path = VZPDFKit/VZPDFColorIndicatorView.m; sourceTree = SOURCE_ROOT; };
+		9343F2A31C0721E0005CFBFF /* VZPDFColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFColorPicker.h; path = VZPDFKit/VZPDFColorPicker.h; sourceTree = SOURCE_ROOT; };
+		9343F2A41C0721E0005CFBFF /* VZPDFColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFColorPickerController.h; path = VZPDFKit/VZPDFColorPickerController.h; sourceTree = SOURCE_ROOT; };
+		9343F2A51C0721E0005CFBFF /* VZPDFColorPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFColorPickerController.m; path = VZPDFKit/VZPDFColorPickerController.m; sourceTree = SOURCE_ROOT; };
+		9343F2A61C0721E0005CFBFF /* VZPDFColorPickerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFColorPickerNavigationController.h; path = VZPDFKit/VZPDFColorPickerNavigationController.h; sourceTree = SOURCE_ROOT; };
+		9343F2A71C0721E0005CFBFF /* VZPDFColorPickerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFColorPickerNavigationController.m; path = VZPDFKit/VZPDFColorPickerNavigationController.m; sourceTree = SOURCE_ROOT; };
+		9343F2A81C0721E0005CFBFF /* VZPDFColorSquarePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFColorSquarePicker.h; path = VZPDFKit/VZPDFColorSquarePicker.h; sourceTree = SOURCE_ROOT; };
+		9343F2A91C0721E0005CFBFF /* VZPDFColorSquarePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFColorSquarePicker.m; path = VZPDFKit/VZPDFColorSquarePicker.m; sourceTree = SOURCE_ROOT; };
+		9343F2AA1C0721E0005CFBFF /* VZPDFConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFConstants.h; path = VZPDFKit/VZPDFConstants.h; sourceTree = SOURCE_ROOT; };
+		9343F2AB1C0721E0005CFBFF /* VZPDFConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFConstants.m; path = VZPDFKit/VZPDFConstants.m; sourceTree = SOURCE_ROOT; };
+		9343F2AC1C0721E0005CFBFF /* VZPDFContentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFContentPage.h; path = VZPDFKit/VZPDFContentPage.h; sourceTree = SOURCE_ROOT; };
+		9343F2AD1C0721E0005CFBFF /* VZPDFContentPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFContentPage.m; path = VZPDFKit/VZPDFContentPage.m; sourceTree = SOURCE_ROOT; };
+		9343F2AE1C0721E0005CFBFF /* VZPDFContentTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFContentTile.h; path = VZPDFKit/VZPDFContentTile.h; sourceTree = SOURCE_ROOT; };
+		9343F2AF1C0721E0005CFBFF /* VZPDFContentTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFContentTile.m; path = VZPDFKit/VZPDFContentTile.m; sourceTree = SOURCE_ROOT; };
+		9343F2B01C0721E0005CFBFF /* VZPDFContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFContentView.h; path = VZPDFKit/VZPDFContentView.h; sourceTree = SOURCE_ROOT; };
+		9343F2B11C0721E0005CFBFF /* VZPDFContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFContentView.m; path = VZPDFKit/VZPDFContentView.m; sourceTree = SOURCE_ROOT; };
+		9343F2B21C0721E0005CFBFF /* VZPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFDocument.h; path = VZPDFKit/VZPDFDocument.h; sourceTree = SOURCE_ROOT; };
+		9343F2B31C0721E0005CFBFF /* VZPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFDocument.m; path = VZPDFKit/VZPDFDocument.m; sourceTree = SOURCE_ROOT; };
+		9343F2B41C0721E0005CFBFF /* VZPDFDocumentOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFDocumentOutline.h; path = VZPDFKit/VZPDFDocumentOutline.h; sourceTree = SOURCE_ROOT; };
+		9343F2B51C0721E0005CFBFF /* VZPDFDocumentOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFDocumentOutline.m; path = VZPDFKit/VZPDFDocumentOutline.m; sourceTree = SOURCE_ROOT; };
+		9343F2B61C0721E0005CFBFF /* VZPDFDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFDrawingTools.h; path = VZPDFKit/VZPDFDrawingTools.h; sourceTree = SOURCE_ROOT; };
+		9343F2B71C0721E0005CFBFF /* VZPDFDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFDrawingTools.m; path = VZPDFKit/VZPDFDrawingTools.m; sourceTree = SOURCE_ROOT; };
+		9343F2B81C0721E0005CFBFF /* VZPDFDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFDrawingView.h; path = VZPDFKit/VZPDFDrawingView.h; sourceTree = SOURCE_ROOT; };
+		9343F2B91C0721E0005CFBFF /* VZPDFDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFDrawingView.m; path = VZPDFKit/VZPDFDrawingView.m; sourceTree = SOURCE_ROOT; };
+		9343F2BA1C0721E0005CFBFF /* VZPDFDrawToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFDrawToolbar.h; path = VZPDFKit/VZPDFDrawToolbar.h; sourceTree = SOURCE_ROOT; };
+		9343F2BB1C0721E0005CFBFF /* VZPDFDrawToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFDrawToolbar.m; path = VZPDFKit/VZPDFDrawToolbar.m; sourceTree = SOURCE_ROOT; };
+		9343F2BC1C0721E0005CFBFF /* VZPDFHSBSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFHSBSupport.h; path = VZPDFKit/VZPDFHSBSupport.h; sourceTree = SOURCE_ROOT; };
+		9343F2BD1C0721E0005CFBFF /* VZPDFHSBSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFHSBSupport.m; path = VZPDFKit/VZPDFHSBSupport.m; sourceTree = SOURCE_ROOT; };
+		9343F2BE1C0721E0005CFBFF /* VZPDFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFKit.h; path = VZPDFKit/VZPDFKit.h; sourceTree = SOURCE_ROOT; };
+		9343F2BF1C0721E0005CFBFF /* VZPDFMainPagebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFMainPagebar.h; path = VZPDFKit/VZPDFMainPagebar.h; sourceTree = SOURCE_ROOT; };
+		9343F2C01C0721E0005CFBFF /* VZPDFMainPagebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFMainPagebar.m; path = VZPDFKit/VZPDFMainPagebar.m; sourceTree = SOURCE_ROOT; };
+		9343F2C11C0721E0005CFBFF /* VZPDFMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFMainToolbar.h; path = VZPDFKit/VZPDFMainToolbar.h; sourceTree = SOURCE_ROOT; };
+		9343F2C21C0721E0005CFBFF /* VZPDFMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFMainToolbar.m; path = VZPDFKit/VZPDFMainToolbar.m; sourceTree = SOURCE_ROOT; };
+		9343F2C31C0721E0005CFBFF /* VZPDFPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFPopoverController.h; path = VZPDFKit/VZPDFPopoverController.h; sourceTree = SOURCE_ROOT; };
+		9343F2C41C0721E0005CFBFF /* VZPDFPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFPopoverController.m; path = VZPDFKit/VZPDFPopoverController.m; sourceTree = SOURCE_ROOT; };
+		9343F2C51C0721E0005CFBFF /* VZPDFPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFPopoverView.h; path = VZPDFKit/VZPDFPopoverView.h; sourceTree = SOURCE_ROOT; };
+		9343F2C61C0721E0005CFBFF /* VZPDFPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFPopoverView.m; path = VZPDFKit/VZPDFPopoverView.m; sourceTree = SOURCE_ROOT; };
+		9343F2C71C0721E0005CFBFF /* VZPDFPropertyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFPropertyController.h; path = VZPDFKit/VZPDFPropertyController.h; sourceTree = SOURCE_ROOT; };
+		9343F2C81C0721E0005CFBFF /* VZPDFPropertyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFPropertyController.m; path = VZPDFKit/VZPDFPropertyController.m; sourceTree = SOURCE_ROOT; };
+		9343F2C91C0721E0005CFBFF /* VZPDFSourceColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFSourceColorView.h; path = VZPDFKit/VZPDFSourceColorView.h; sourceTree = SOURCE_ROOT; };
+		9343F2CA1C0721E0005CFBFF /* VZPDFSourceColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFSourceColorView.m; path = VZPDFKit/VZPDFSourceColorView.m; sourceTree = SOURCE_ROOT; };
+		9343F2CB1C0721E0005CFBFF /* VZPDFThumbCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFThumbCache.h; path = VZPDFKit/VZPDFThumbCache.h; sourceTree = SOURCE_ROOT; };
+		9343F2CC1C0721E0005CFBFF /* VZPDFThumbCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFThumbCache.m; path = VZPDFKit/VZPDFThumbCache.m; sourceTree = SOURCE_ROOT; };
+		9343F2CD1C0721E0005CFBFF /* VZPDFThumbFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFThumbFetch.h; path = VZPDFKit/VZPDFThumbFetch.h; sourceTree = SOURCE_ROOT; };
+		9343F2CE1C0721E0005CFBFF /* VZPDFThumbFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFThumbFetch.m; path = VZPDFKit/VZPDFThumbFetch.m; sourceTree = SOURCE_ROOT; };
+		9343F2CF1C0721E0005CFBFF /* VZPDFThumbQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFThumbQueue.h; path = VZPDFKit/VZPDFThumbQueue.h; sourceTree = SOURCE_ROOT; };
+		9343F2D01C0721E0005CFBFF /* VZPDFThumbQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFThumbQueue.m; path = VZPDFKit/VZPDFThumbQueue.m; sourceTree = SOURCE_ROOT; };
+		9343F2D11C0721E0005CFBFF /* VZPDFThumbRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFThumbRender.h; path = VZPDFKit/VZPDFThumbRender.h; sourceTree = SOURCE_ROOT; };
+		9343F2D21C0721E0005CFBFF /* VZPDFThumbRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFThumbRender.m; path = VZPDFKit/VZPDFThumbRender.m; sourceTree = SOURCE_ROOT; };
+		9343F2D31C0721E0005CFBFF /* VZPDFThumbRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFThumbRequest.h; path = VZPDFKit/VZPDFThumbRequest.h; sourceTree = SOURCE_ROOT; };
+		9343F2D41C0721E0005CFBFF /* VZPDFThumbRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFThumbRequest.m; path = VZPDFKit/VZPDFThumbRequest.m; sourceTree = SOURCE_ROOT; };
+		9343F2D51C0721E0005CFBFF /* VZPDFThumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFThumbsView.h; path = VZPDFKit/VZPDFThumbsView.h; sourceTree = SOURCE_ROOT; };
+		9343F2D61C0721E0005CFBFF /* VZPDFThumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFThumbsView.m; path = VZPDFKit/VZPDFThumbsView.m; sourceTree = SOURCE_ROOT; };
+		9343F2D71C0721E0005CFBFF /* VZPDFThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFThumbView.h; path = VZPDFKit/VZPDFThumbView.h; sourceTree = SOURCE_ROOT; };
+		9343F2D81C0721E0005CFBFF /* VZPDFThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFThumbView.m; path = VZPDFKit/VZPDFThumbView.m; sourceTree = SOURCE_ROOT; };
+		9343F2D91C0721E0005CFBFF /* VZPDFTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFTouchView.h; path = VZPDFKit/VZPDFTouchView.h; sourceTree = SOURCE_ROOT; };
+		9343F2DA1C0721E0005CFBFF /* VZPDFTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFTouchView.m; path = VZPDFKit/VZPDFTouchView.m; sourceTree = SOURCE_ROOT; };
+		9343F2DB1C0721E0005CFBFF /* VZPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZPDFViewController.h; path = VZPDFKit/VZPDFViewController.h; sourceTree = SOURCE_ROOT; };
+		9343F2DC1C0721E0005CFBFF /* VZPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFViewController.m; path = VZPDFKit/VZPDFViewController.m; sourceTree = SOURCE_ROOT; };
+		9343F3191C07220D005CFBFF /* PathDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PathDataManager.h; path = VZPDFKit/PathDataManager.h; sourceTree = SOURCE_ROOT; };
+		9343F31A1C07220D005CFBFF /* PathDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PathDataManager.m; path = VZPDFKit/PathDataManager.m; sourceTree = SOURCE_ROOT; };
+		9343F31D1C072236005CFBFF /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = File.h; path = VZPDFKit/File.h; sourceTree = SOURCE_ROOT; };
+		9343F31E1C072236005CFBFF /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = File.m; path = VZPDFKit/File.m; sourceTree = SOURCE_ROOT; };
+		9343F31F1C072236005CFBFF /* VZPDFColorPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VZPDFColorPickerView.xib; path = VZPDFKit/VZPDFColorPickerView.xib; sourceTree = SOURCE_ROOT; };
+		9343F3201C072236005CFBFF /* VZPDFColorBarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFColorBarPicker.m; path = VZPDFKit/VZPDFColorBarPicker.m; sourceTree = SOURCE_ROOT; };
+		9343F3271C0722A4005CFBFF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = SOURCE_ROOT; };
+		9343F3291C0722F9005CFBFF /* circle-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-but.png"; path = "VZPDFKit/circle-but.png"; sourceTree = SOURCE_ROOT; };
+		9343F32A1C0722F9005CFBFF /* circle-but@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-but@2x.png"; path = "VZPDFKit/circle-but@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F32B1C0722F9005CFBFF /* circlefill-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circlefill-but.png"; path = "VZPDFKit/circlefill-but.png"; sourceTree = SOURCE_ROOT; };
+		9343F32C1C0722F9005CFBFF /* circlefill-but@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circlefill-but@2x.png"; path = "VZPDFKit/circlefill-but@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F32D1C0722F9005CFBFF /* clear-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clear-but.png"; path = "VZPDFKit/clear-but.png"; sourceTree = SOURCE_ROOT; };
+		9343F32E1C0722F9005CFBFF /* clear-but@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clear-but@2x.png"; path = "VZPDFKit/clear-but@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F32F1C0722F9005CFBFF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "VZPDFKit/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3301C0722F9005CFBFF /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h@2x.png"; path = "VZPDFKit/Default-667h@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3311C0722F9005CFBFF /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-736h@3x.png"; path = "VZPDFKit/Default-736h@3x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3321C0722F9005CFBFF /* done-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "done-but.png"; path = "VZPDFKit/done-but.png"; sourceTree = SOURCE_ROOT; };
+		9343F3331C0722F9005CFBFF /* done-but@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "done-but@2x.png"; path = "VZPDFKit/done-but@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3341C0722F9005CFBFF /* eraser-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "eraser-but.png"; path = "VZPDFKit/eraser-but.png"; sourceTree = SOURCE_ROOT; };
+		9343F3351C0722F9005CFBFF /* eraser-but@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "eraser-but@2x.png"; path = "VZPDFKit/eraser-but@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3361C0722F9005CFBFF /* LazyPDF-Button-H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Button-H.png"; path = "VZPDFKit/LazyPDF-Button-H.png"; sourceTree = SOURCE_ROOT; };
+		9343F3371C0722F9005CFBFF /* LazyPDF-Button-H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Button-H@2x.png"; path = "VZPDFKit/LazyPDF-Button-H@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3381C0722F9005CFBFF /* LazyPDF-Button-N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Button-N.png"; path = "VZPDFKit/LazyPDF-Button-N.png"; sourceTree = SOURCE_ROOT; };
+		9343F3391C0722F9005CFBFF /* LazyPDF-Button-N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Button-N@2x.png"; path = "VZPDFKit/LazyPDF-Button-N@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F33A1C0722F9005CFBFF /* LazyPDF-Email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Email.png"; path = "VZPDFKit/LazyPDF-Email.png"; sourceTree = SOURCE_ROOT; };
+		9343F33B1C0722F9005CFBFF /* LazyPDF-Email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Email@2x.png"; path = "VZPDFKit/LazyPDF-Email@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F33C1C0722F9005CFBFF /* LazyPDF-Export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Export.png"; path = "VZPDFKit/LazyPDF-Export.png"; sourceTree = SOURCE_ROOT; };
+		9343F33D1C0722F9005CFBFF /* LazyPDF-Export@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Export@2x.png"; path = "VZPDFKit/LazyPDF-Export@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F33E1C0722F9005CFBFF /* LazyPDF-Mark-N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Mark-N.png"; path = "VZPDFKit/LazyPDF-Mark-N.png"; sourceTree = SOURCE_ROOT; };
+		9343F33F1C0722F9005CFBFF /* LazyPDF-Mark-N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Mark-N@2x.png"; path = "VZPDFKit/LazyPDF-Mark-N@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3401C0722F9005CFBFF /* LazyPDF-Mark-Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Mark-Y.png"; path = "VZPDFKit/LazyPDF-Mark-Y.png"; sourceTree = SOURCE_ROOT; };
+		9343F3411C0722F9005CFBFF /* LazyPDF-Mark-Y@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Mark-Y@2x.png"; path = "VZPDFKit/LazyPDF-Mark-Y@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3421C0722F9005CFBFF /* LazyPDF-Print.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Print.png"; path = "VZPDFKit/LazyPDF-Print.png"; sourceTree = SOURCE_ROOT; };
+		9343F3431C0722F9005CFBFF /* LazyPDF-Print@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Print@2x.png"; path = "VZPDFKit/LazyPDF-Print@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3441C0722F9005CFBFF /* LazyPDF-Thumbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Thumbs.png"; path = "VZPDFKit/LazyPDF-Thumbs.png"; sourceTree = SOURCE_ROOT; };
+		9343F3451C0722F9005CFBFF /* LazyPDF-Thumbs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LazyPDF-Thumbs@2x.png"; path = "VZPDFKit/LazyPDF-Thumbs@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3461C0722F9005CFBFF /* line-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "line-but.png"; path = "VZPDFKit/line-but.png"; sourceTree = SOURCE_ROOT; };
+		9343F3471C0722F9005CFBFF /* line-but@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "line-but@2x.png"; path = "VZPDFKit/line-but@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3481C0722F9005CFBFF /* pen-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pen-but.png"; path = "VZPDFKit/pen-but.png"; sourceTree = SOURCE_ROOT; };
+		9343F3491C0722F9005CFBFF /* pen-but@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pen-but@2x.png"; path = "VZPDFKit/pen-but@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F34A1C0722F9005CFBFF /* Pen-Button-Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pen-Button-Y.png"; path = "VZPDFKit/Pen-Button-Y.png"; sourceTree = SOURCE_ROOT; };
+		9343F34B1C0722F9005CFBFF /* Pen-Button-Y@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pen-Button-Y@2x.png"; path = "VZPDFKit/Pen-Button-Y@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F34C1C0722F9005CFBFF /* Pen-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pen-Button.png"; path = "VZPDFKit/Pen-Button.png"; sourceTree = SOURCE_ROOT; };
+		9343F34D1C0722F9005CFBFF /* Pen-Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pen-Button@2x.png"; path = "VZPDFKit/Pen-Button@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F34E1C0722F9005CFBFF /* redo-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "redo-but.png"; path = "VZPDFKit/redo-but.png"; sourceTree = SOURCE_ROOT; };
+		9343F34F1C0722F9005CFBFF /* redo-but@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "redo-but@2x.png"; path = "VZPDFKit/redo-but@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3501C0722F9005CFBFF /* square-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "square-but.png"; path = "VZPDFKit/square-but.png"; sourceTree = SOURCE_ROOT; };
+		9343F3511C0722F9005CFBFF /* square-but@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "square-but@2x.png"; path = "VZPDFKit/square-but@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3521C0722F9005CFBFF /* squarefill-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "squarefill-but.png"; path = "VZPDFKit/squarefill-but.png"; sourceTree = SOURCE_ROOT; };
+		9343F3531C0722F9005CFBFF /* squarefill-but@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "squarefill-but@2x.png"; path = "VZPDFKit/squarefill-but@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3541C0722F9005CFBFF /* text-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text-but.png"; path = "VZPDFKit/text-but.png"; sourceTree = SOURCE_ROOT; };
+		9343F3551C0722F9005CFBFF /* text-but@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text-but@2x.png"; path = "VZPDFKit/text-but@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3561C0722F9005CFBFF /* undo-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "undo-but.png"; path = "VZPDFKit/undo-but.png"; sourceTree = SOURCE_ROOT; };
+		9343F3571C0722F9005CFBFF /* undo-but@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "undo-but@2x.png"; path = "VZPDFKit/undo-but@2x.png"; sourceTree = SOURCE_ROOT; };
+		9343F3901C0724C9005CFBFF /* VZPDFKitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZPDFKitTests.m; path = VZPDFKitTests/VZPDFKitTests.m; sourceTree = SOURCE_ROOT; };
+		9343F3931C0724DF005CFBFF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VZPDFKitTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		9343F3951C0724EC005CFBFF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VZPDFKit/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904838461AB6A8C600E62E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904838521AB6A8C600E62E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904838561AB6A8C600E62E60 /* VirtuosoPDFKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		904838401AB6A8C600E62E60 = {
+			isa = PBXGroup;
+			children = (
+				83896F701B984B200097D5CA /* lazydylib1.o */,
+				9048384C1AB6A8C600E62E60 /* VZPDFKit */,
+				904838591AB6A8C600E62E60 /* VZPDFKitTests */,
+				9048384B1AB6A8C600E62E60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9048384B1AB6A8C600E62E60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9048384A1AB6A8C600E62E60 /* VirtuosoPDFKit.framework */,
+				904838551AB6A8C600E62E60 /* VirtuosoPDFKit.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9048384C1AB6A8C600E62E60 /* VZPDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				9343F3271C0722A4005CFBFF /* Constants.h */,
+				9343F31D1C072236005CFBFF /* File.h */,
+				9343F31E1C072236005CFBFF /* File.m */,
+				9343F31F1C072236005CFBFF /* VZPDFColorPickerView.xib */,
+				9343F3201C072236005CFBFF /* VZPDFColorBarPicker.m */,
+				9343F2A11C0721E0005CFBFF /* VZPDFColorIndicatorView.h */,
+				9343F2A21C0721E0005CFBFF /* VZPDFColorIndicatorView.m */,
+				9343F2A31C0721E0005CFBFF /* VZPDFColorPicker.h */,
+				9343F2A41C0721E0005CFBFF /* VZPDFColorPickerController.h */,
+				9343F2A51C0721E0005CFBFF /* VZPDFColorPickerController.m */,
+				9343F2A61C0721E0005CFBFF /* VZPDFColorPickerNavigationController.h */,
+				9343F2A71C0721E0005CFBFF /* VZPDFColorPickerNavigationController.m */,
+				9343F2A81C0721E0005CFBFF /* VZPDFColorSquarePicker.h */,
+				9343F2A91C0721E0005CFBFF /* VZPDFColorSquarePicker.m */,
+				9343F2AA1C0721E0005CFBFF /* VZPDFConstants.h */,
+				9343F2AB1C0721E0005CFBFF /* VZPDFConstants.m */,
+				9343F2AC1C0721E0005CFBFF /* VZPDFContentPage.h */,
+				9343F2AD1C0721E0005CFBFF /* VZPDFContentPage.m */,
+				9343F2AE1C0721E0005CFBFF /* VZPDFContentTile.h */,
+				9343F2AF1C0721E0005CFBFF /* VZPDFContentTile.m */,
+				9343F2B01C0721E0005CFBFF /* VZPDFContentView.h */,
+				9343F2B11C0721E0005CFBFF /* VZPDFContentView.m */,
+				9343F2B21C0721E0005CFBFF /* VZPDFDocument.h */,
+				9343F2B31C0721E0005CFBFF /* VZPDFDocument.m */,
+				9343F2B41C0721E0005CFBFF /* VZPDFDocumentOutline.h */,
+				9343F2B51C0721E0005CFBFF /* VZPDFDocumentOutline.m */,
+				9343F2B61C0721E0005CFBFF /* VZPDFDrawingTools.h */,
+				9343F2B71C0721E0005CFBFF /* VZPDFDrawingTools.m */,
+				9343F2B81C0721E0005CFBFF /* VZPDFDrawingView.h */,
+				9343F2B91C0721E0005CFBFF /* VZPDFDrawingView.m */,
+				9343F2BA1C0721E0005CFBFF /* VZPDFDrawToolbar.h */,
+				9343F2BB1C0721E0005CFBFF /* VZPDFDrawToolbar.m */,
+				9343F2BC1C0721E0005CFBFF /* VZPDFHSBSupport.h */,
+				9343F2BD1C0721E0005CFBFF /* VZPDFHSBSupport.m */,
+				9343F2BE1C0721E0005CFBFF /* VZPDFKit.h */,
+				9343F2BF1C0721E0005CFBFF /* VZPDFMainPagebar.h */,
+				9343F2C01C0721E0005CFBFF /* VZPDFMainPagebar.m */,
+				9343F2C11C0721E0005CFBFF /* VZPDFMainToolbar.h */,
+				9343F2C21C0721E0005CFBFF /* VZPDFMainToolbar.m */,
+				9343F2C31C0721E0005CFBFF /* VZPDFPopoverController.h */,
+				9343F2C41C0721E0005CFBFF /* VZPDFPopoverController.m */,
+				9343F2C51C0721E0005CFBFF /* VZPDFPopoverView.h */,
+				9343F2C61C0721E0005CFBFF /* VZPDFPopoverView.m */,
+				9343F2C71C0721E0005CFBFF /* VZPDFPropertyController.h */,
+				9343F2C81C0721E0005CFBFF /* VZPDFPropertyController.m */,
+				9343F2C91C0721E0005CFBFF /* VZPDFSourceColorView.h */,
+				9343F2CA1C0721E0005CFBFF /* VZPDFSourceColorView.m */,
+				9343F2CB1C0721E0005CFBFF /* VZPDFThumbCache.h */,
+				9343F2CC1C0721E0005CFBFF /* VZPDFThumbCache.m */,
+				9343F2CD1C0721E0005CFBFF /* VZPDFThumbFetch.h */,
+				9343F2CE1C0721E0005CFBFF /* VZPDFThumbFetch.m */,
+				9343F2CF1C0721E0005CFBFF /* VZPDFThumbQueue.h */,
+				9343F2D01C0721E0005CFBFF /* VZPDFThumbQueue.m */,
+				9343F2D11C0721E0005CFBFF /* VZPDFThumbRender.h */,
+				9343F2D21C0721E0005CFBFF /* VZPDFThumbRender.m */,
+				9343F2D31C0721E0005CFBFF /* VZPDFThumbRequest.h */,
+				9343F2D41C0721E0005CFBFF /* VZPDFThumbRequest.m */,
+				9343F2D51C0721E0005CFBFF /* VZPDFThumbsView.h */,
+				9343F2D61C0721E0005CFBFF /* VZPDFThumbsView.m */,
+				9343F2D71C0721E0005CFBFF /* VZPDFThumbView.h */,
+				9343F2D81C0721E0005CFBFF /* VZPDFThumbView.m */,
+				9343F2D91C0721E0005CFBFF /* VZPDFTouchView.h */,
+				9343F2DA1C0721E0005CFBFF /* VZPDFTouchView.m */,
+				9343F2DB1C0721E0005CFBFF /* VZPDFViewController.h */,
+				9343F2DC1C0721E0005CFBFF /* VZPDFViewController.m */,
+				9343F2891C0721C9005CFBFF /* Annotation.h */,
+				9343F28A1C0721C9005CFBFF /* Annotation.m */,
+				9343F28B1C0721C9005CFBFF /* ARCMacros.h */,
+				9343F28C1C0721C9005CFBFF /* CGPDFDocument.h */,
+				9343F28D1C0721C9005CFBFF /* CGPDFDocument.m */,
+				9343F28E1C0721C9005CFBFF /* ThumbsMainToolbar.h */,
+				9343F28F1C0721C9005CFBFF /* ThumbsMainToolbar.m */,
+				9343F2901C0721C9005CFBFF /* ThumbsViewController.h */,
+				9343F2911C0721C9005CFBFF /* ThumbsViewController.m */,
+				9343F2921C0721C9005CFBFF /* UIXToolbarView.h */,
+				9343F2931C0721C9005CFBFF /* UIXToolbarView.m */,
+				9343F2941C0721C9005CFBFF /* VZPDFColorBarPicker.h */,
+				834FC23E1BB95A4400132132 /* triangle.png */,
+				90483A4F1AB6A9E600E62E60 /* Graphics */,
+				90483A501AB6AA1000E62E60 /* CoreData */,
+				9048384D1AB6A8C600E62E60 /* Supporting Files */,
+			);
+			name = VZPDFKit;
+			path = LazyPDFKit;
+			sourceTree = "<group>";
+		};
+		9048384D1AB6A8C600E62E60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9343F3951C0724EC005CFBFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		904838591AB6A8C600E62E60 /* VZPDFKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				9343F3901C0724C9005CFBFF /* VZPDFKitTests.m */,
+				9048385A1AB6A8C600E62E60 /* Supporting Files */,
+			);
+			name = VZPDFKitTests;
+			path = LazyPDFKitTests;
+			sourceTree = "<group>";
+		};
+		9048385A1AB6A8C600E62E60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9343F3931C0724DF005CFBFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90483A4F1AB6A9E600E62E60 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				9343F3291C0722F9005CFBFF /* circle-but.png */,
+				9343F32A1C0722F9005CFBFF /* circle-but@2x.png */,
+				9343F32B1C0722F9005CFBFF /* circlefill-but.png */,
+				9343F32C1C0722F9005CFBFF /* circlefill-but@2x.png */,
+				9343F32D1C0722F9005CFBFF /* clear-but.png */,
+				9343F32E1C0722F9005CFBFF /* clear-but@2x.png */,
+				9343F32F1C0722F9005CFBFF /* Default-568h@2x.png */,
+				9343F3301C0722F9005CFBFF /* Default-667h@2x.png */,
+				9343F3311C0722F9005CFBFF /* Default-736h@3x.png */,
+				9343F3321C0722F9005CFBFF /* done-but.png */,
+				9343F3331C0722F9005CFBFF /* done-but@2x.png */,
+				9343F3341C0722F9005CFBFF /* eraser-but.png */,
+				9343F3351C0722F9005CFBFF /* eraser-but@2x.png */,
+				9343F3361C0722F9005CFBFF /* LazyPDF-Button-H.png */,
+				9343F3371C0722F9005CFBFF /* LazyPDF-Button-H@2x.png */,
+				9343F3381C0722F9005CFBFF /* LazyPDF-Button-N.png */,
+				9343F3391C0722F9005CFBFF /* LazyPDF-Button-N@2x.png */,
+				9343F33A1C0722F9005CFBFF /* LazyPDF-Email.png */,
+				9343F33B1C0722F9005CFBFF /* LazyPDF-Email@2x.png */,
+				9343F33C1C0722F9005CFBFF /* LazyPDF-Export.png */,
+				9343F33D1C0722F9005CFBFF /* LazyPDF-Export@2x.png */,
+				9343F33E1C0722F9005CFBFF /* LazyPDF-Mark-N.png */,
+				9343F33F1C0722F9005CFBFF /* LazyPDF-Mark-N@2x.png */,
+				9343F3401C0722F9005CFBFF /* LazyPDF-Mark-Y.png */,
+				9343F3411C0722F9005CFBFF /* LazyPDF-Mark-Y@2x.png */,
+				9343F3421C0722F9005CFBFF /* LazyPDF-Print.png */,
+				9343F3431C0722F9005CFBFF /* LazyPDF-Print@2x.png */,
+				9343F3441C0722F9005CFBFF /* LazyPDF-Thumbs.png */,
+				9343F3451C0722F9005CFBFF /* LazyPDF-Thumbs@2x.png */,
+				9343F3461C0722F9005CFBFF /* line-but.png */,
+				9343F3471C0722F9005CFBFF /* line-but@2x.png */,
+				9343F3481C0722F9005CFBFF /* pen-but.png */,
+				9343F3491C0722F9005CFBFF /* pen-but@2x.png */,
+				9343F34A1C0722F9005CFBFF /* Pen-Button-Y.png */,
+				9343F34B1C0722F9005CFBFF /* Pen-Button-Y@2x.png */,
+				9343F34C1C0722F9005CFBFF /* Pen-Button.png */,
+				9343F34D1C0722F9005CFBFF /* Pen-Button@2x.png */,
+				9343F34E1C0722F9005CFBFF /* redo-but.png */,
+				9343F34F1C0722F9005CFBFF /* redo-but@2x.png */,
+				9343F3501C0722F9005CFBFF /* square-but.png */,
+				9343F3511C0722F9005CFBFF /* square-but@2x.png */,
+				9343F3521C0722F9005CFBFF /* squarefill-but.png */,
+				9343F3531C0722F9005CFBFF /* squarefill-but@2x.png */,
+				9343F3541C0722F9005CFBFF /* text-but.png */,
+				9343F3551C0722F9005CFBFF /* text-but@2x.png */,
+				9343F3561C0722F9005CFBFF /* undo-but.png */,
+				9343F3571C0722F9005CFBFF /* undo-but@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		90483A501AB6AA1000E62E60 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9343F3251C072261005CFBFF /* PathModel.xcdatamodeld */,
+				9343F3191C07220D005CFBFF /* PathDataManager.h */,
+				9343F31A1C07220D005CFBFF /* PathDataManager.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		904838471AB6A8C600E62E60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343F2FA1C0721E0005CFBFF /* VZPDFKit.h in Headers */,
+				9343F2E61C0721E0005CFBFF /* VZPDFConstants.h in Headers */,
+				9343F2FB1C0721E0005CFBFF /* VZPDFMainPagebar.h in Headers */,
+				9343F2EA1C0721E0005CFBFF /* VZPDFContentTile.h in Headers */,
+				9343F2FD1C0721E0005CFBFF /* VZPDFMainToolbar.h in Headers */,
+				9343F2DD1C0721E0005CFBFF /* VZPDFColorIndicatorView.h in Headers */,
+				9343F3071C0721E0005CFBFF /* VZPDFThumbCache.h in Headers */,
+				9343F2E01C0721E0005CFBFF /* VZPDFColorPickerController.h in Headers */,
+				9343F3131C0721E0005CFBFF /* VZPDFThumbView.h in Headers */,
+				9343F2E41C0721E0005CFBFF /* VZPDFColorSquarePicker.h in Headers */,
+				9343F30D1C0721E0005CFBFF /* VZPDFThumbRender.h in Headers */,
+				9343F2E81C0721E0005CFBFF /* VZPDFContentPage.h in Headers */,
+				9343F2EE1C0721E0005CFBFF /* VZPDFDocument.h in Headers */,
+				9343F3091C0721E0005CFBFF /* VZPDFThumbFetch.h in Headers */,
+				9343F29A1C0721C9005CFBFF /* ThumbsMainToolbar.h in Headers */,
+				9343F2971C0721C9005CFBFF /* ARCMacros.h in Headers */,
+				9343F2EC1C0721E0005CFBFF /* VZPDFContentView.h in Headers */,
+				9343F2951C0721C9005CFBFF /* Annotation.h in Headers */,
+				9343F3111C0721E0005CFBFF /* VZPDFThumbsView.h in Headers */,
+				9343F2F01C0721E0005CFBFF /* VZPDFDocumentOutline.h in Headers */,
+				9343F3031C0721E0005CFBFF /* VZPDFPropertyController.h in Headers */,
+				9343F3211C072236005CFBFF /* File.h in Headers */,
+				9343F2E21C0721E0005CFBFF /* VZPDFColorPickerNavigationController.h in Headers */,
+				9343F2F41C0721E0005CFBFF /* VZPDFDrawingView.h in Headers */,
+				9343F2F21C0721E0005CFBFF /* VZPDFDrawingTools.h in Headers */,
+				9343F2F81C0721E0005CFBFF /* VZPDFHSBSupport.h in Headers */,
+				9343F3151C0721E0005CFBFF /* VZPDFTouchView.h in Headers */,
+				9343F2DF1C0721E0005CFBFF /* VZPDFColorPicker.h in Headers */,
+				9343F30B1C0721E0005CFBFF /* VZPDFThumbQueue.h in Headers */,
+				9343F3281C0722A4005CFBFF /* Constants.h in Headers */,
+				9343F3011C0721E0005CFBFF /* VZPDFPopoverView.h in Headers */,
+				9343F2FF1C0721E0005CFBFF /* VZPDFPopoverController.h in Headers */,
+				9343F30F1C0721E0005CFBFF /* VZPDFThumbRequest.h in Headers */,
+				9343F3051C0721E0005CFBFF /* VZPDFSourceColorView.h in Headers */,
+				9343F29C1C0721C9005CFBFF /* ThumbsViewController.h in Headers */,
+				9343F2F61C0721E0005CFBFF /* VZPDFDrawToolbar.h in Headers */,
+				9343F29E1C0721C9005CFBFF /* UIXToolbarView.h in Headers */,
+				9343F31B1C07220D005CFBFF /* PathDataManager.h in Headers */,
+				9343F2981C0721C9005CFBFF /* CGPDFDocument.h in Headers */,
+				9343F3171C0721E0005CFBFF /* VZPDFViewController.h in Headers */,
+				9343F2A01C0721C9005CFBFF /* VZPDFColorBarPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		904838491AB6A8C600E62E60 /* VirtuosoPDFKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904838601AB6A8C600E62E60 /* Build configuration list for PBXNativeTarget "VirtuosoPDFKit" */;
+			buildPhases = (
+				904838451AB6A8C600E62E60 /* Sources */,
+				904838461AB6A8C600E62E60 /* Frameworks */,
+				904838471AB6A8C600E62E60 /* Headers */,
+				904838481AB6A8C600E62E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtuosoPDFKit;
+			productName = LazyPDFKit;
+			productReference = 9048384A1AB6A8C600E62E60 /* VirtuosoPDFKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		904838541AB6A8C600E62E60 /* VirtuosoPDFKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904838631AB6A8C600E62E60 /* Build configuration list for PBXNativeTarget "VirtuosoPDFKitTests" */;
+			buildPhases = (
+				904838511AB6A8C600E62E60 /* Sources */,
+				904838521AB6A8C600E62E60 /* Frameworks */,
+				904838531AB6A8C600E62E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904838581AB6A8C600E62E60 /* PBXTargetDependency */,
+			);
+			name = VirtuosoPDFKitTests;
+			productName = LazyPDFKitTests;
+			productReference = 904838551AB6A8C600E62E60 /* VirtuosoPDFKit.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904838411AB6A8C600E62E60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Lazyprogram;
+				TargetAttributes = {
+					904838491AB6A8C600E62E60 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = T5WHAVBYZ2;
+					};
+					904838541AB6A8C600E62E60 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					90D421411AC3943800D3CE2A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 904838441AB6A8C600E62E60 /* Build configuration list for PBXProject "VirtuosoPDFKit" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 904838401AB6A8C600E62E60;
+			productRefGroup = 9048384B1AB6A8C600E62E60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904838491AB6A8C600E62E60 /* VirtuosoPDFKit */,
+				904838541AB6A8C600E62E60 /* VirtuosoPDFKitTests */,
+				90D421411AC3943800D3CE2A /* VirtuosoPDFKitFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		904838481AB6A8C600E62E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343F37E1C0722F9005CFBFF /* redo-but@2x.png in Resources */,
+				9343F3591C0722F9005CFBFF /* circle-but@2x.png in Resources */,
+				9343F3611C0722F9005CFBFF /* done-but.png in Resources */,
+				9343F36B1C0722F9005CFBFF /* LazyPDF-Export.png in Resources */,
+				9343F37B1C0722F9005CFBFF /* Pen-Button.png in Resources */,
+				9343F3701C0722F9005CFBFF /* LazyPDF-Mark-Y@2x.png in Resources */,
+				834FC23F1BB95A4400132132 /* triangle.png in Resources */,
+				9343F3761C0722F9005CFBFF /* line-but@2x.png in Resources */,
+				9343F37A1C0722F9005CFBFF /* Pen-Button-Y@2x.png in Resources */,
+				9343F3841C0722F9005CFBFF /* text-but@2x.png in Resources */,
+				9343F3741C0722F9005CFBFF /* LazyPDF-Thumbs@2x.png in Resources */,
+				9343F37D1C0722F9005CFBFF /* redo-but.png in Resources */,
+				9343F35E1C0722F9005CFBFF /* Default-568h@2x.png in Resources */,
+				9343F3601C0722F9005CFBFF /* Default-736h@3x.png in Resources */,
+				9343F3681C0722F9005CFBFF /* LazyPDF-Button-N@2x.png in Resources */,
+				9343F3621C0722F9005CFBFF /* done-but@2x.png in Resources */,
+				9343F35C1C0722F9005CFBFF /* clear-but.png in Resources */,
+				9343F3231C072236005CFBFF /* VZPDFColorPickerView.xib in Resources */,
+				9343F3811C0722F9005CFBFF /* squarefill-but.png in Resources */,
+				9343F35D1C0722F9005CFBFF /* clear-but@2x.png in Resources */,
+				9343F3671C0722F9005CFBFF /* LazyPDF-Button-N.png in Resources */,
+				9343F3691C0722F9005CFBFF /* LazyPDF-Email.png in Resources */,
+				9343F3581C0722F9005CFBFF /* circle-but.png in Resources */,
+				9343F3771C0722F9005CFBFF /* pen-but.png in Resources */,
+				9343F3801C0722F9005CFBFF /* square-but@2x.png in Resources */,
+				9343F3831C0722F9005CFBFF /* text-but.png in Resources */,
+				9343F35A1C0722F9005CFBFF /* circlefill-but.png in Resources */,
+				9343F3711C0722F9005CFBFF /* LazyPDF-Print.png in Resources */,
+				9343F3631C0722F9005CFBFF /* eraser-but.png in Resources */,
+				9343F3791C0722F9005CFBFF /* Pen-Button-Y.png in Resources */,
+				9343F3661C0722F9005CFBFF /* LazyPDF-Button-H@2x.png in Resources */,
+				9343F35B1C0722F9005CFBFF /* circlefill-but@2x.png in Resources */,
+				9343F36D1C0722F9005CFBFF /* LazyPDF-Mark-N.png in Resources */,
+				9343F36F1C0722F9005CFBFF /* LazyPDF-Mark-Y.png in Resources */,
+				9343F3721C0722F9005CFBFF /* LazyPDF-Print@2x.png in Resources */,
+				9343F3861C0722F9005CFBFF /* undo-but@2x.png in Resources */,
+				9343F36A1C0722F9005CFBFF /* LazyPDF-Email@2x.png in Resources */,
+				9343F37F1C0722F9005CFBFF /* square-but.png in Resources */,
+				9343F36C1C0722F9005CFBFF /* LazyPDF-Export@2x.png in Resources */,
+				9343F3731C0722F9005CFBFF /* LazyPDF-Thumbs.png in Resources */,
+				9343F35F1C0722F9005CFBFF /* Default-667h@2x.png in Resources */,
+				9343F37C1C0722F9005CFBFF /* Pen-Button@2x.png in Resources */,
+				9343F3641C0722F9005CFBFF /* eraser-but@2x.png in Resources */,
+				9343F3651C0722F9005CFBFF /* LazyPDF-Button-H.png in Resources */,
+				9343F3961C0724EC005CFBFF /* Info.plist in Resources */,
+				9343F3781C0722F9005CFBFF /* pen-but@2x.png in Resources */,
+				9343F36E1C0722F9005CFBFF /* LazyPDF-Mark-N@2x.png in Resources */,
+				9343F3851C0722F9005CFBFF /* undo-but.png in Resources */,
+				9343F3821C0722F9005CFBFF /* squarefill-but@2x.png in Resources */,
+				9343F3941C0724DF005CFBFF /* Info.plist in Resources */,
+				9343F3751C0722F9005CFBFF /* line-but.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904838531AB6A8C600E62E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90D421451AC3945C00D3CE2A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules (from iphonesimulator build) to the copied framework directory\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/Framework.swiftmodule/.\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/Framework.swiftmodule\"\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904838451AB6A8C600E62E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343F3241C072236005CFBFF /* VZPDFColorBarPicker.m in Sources */,
+				9343F30A1C0721E0005CFBFF /* VZPDFThumbFetch.m in Sources */,
+				9343F3101C0721E0005CFBFF /* VZPDFThumbRequest.m in Sources */,
+				9343F2F91C0721E0005CFBFF /* VZPDFHSBSupport.m in Sources */,
+				9343F2E31C0721E0005CFBFF /* VZPDFColorPickerNavigationController.m in Sources */,
+				9343F2961C0721C9005CFBFF /* Annotation.m in Sources */,
+				9343F29B1C0721C9005CFBFF /* ThumbsMainToolbar.m in Sources */,
+				9343F3161C0721E0005CFBFF /* VZPDFTouchView.m in Sources */,
+				9343F2EF1C0721E0005CFBFF /* VZPDFDocument.m in Sources */,
+				9343F2991C0721C9005CFBFF /* CGPDFDocument.m in Sources */,
+				9343F3261C072261005CFBFF /* PathModel.xcdatamodeld in Sources */,
+				9343F3181C0721E0005CFBFF /* VZPDFViewController.m in Sources */,
+				9343F2F51C0721E0005CFBFF /* VZPDFDrawingView.m in Sources */,
+				9343F3041C0721E0005CFBFF /* VZPDFPropertyController.m in Sources */,
+				9343F2EB1C0721E0005CFBFF /* VZPDFContentTile.m in Sources */,
+				9343F2F71C0721E0005CFBFF /* VZPDFDrawToolbar.m in Sources */,
+				9343F2FE1C0721E0005CFBFF /* VZPDFMainToolbar.m in Sources */,
+				9343F3221C072236005CFBFF /* File.m in Sources */,
+				9343F2FC1C0721E0005CFBFF /* VZPDFMainPagebar.m in Sources */,
+				9343F2ED1C0721E0005CFBFF /* VZPDFContentView.m in Sources */,
+				9343F29F1C0721C9005CFBFF /* UIXToolbarView.m in Sources */,
+				9343F2DE1C0721E0005CFBFF /* VZPDFColorIndicatorView.m in Sources */,
+				9343F2E91C0721E0005CFBFF /* VZPDFContentPage.m in Sources */,
+				9343F3121C0721E0005CFBFF /* VZPDFThumbsView.m in Sources */,
+				9343F31C1C07220D005CFBFF /* PathDataManager.m in Sources */,
+				9343F2E51C0721E0005CFBFF /* VZPDFColorSquarePicker.m in Sources */,
+				9343F3141C0721E0005CFBFF /* VZPDFThumbView.m in Sources */,
+				9343F3021C0721E0005CFBFF /* VZPDFPopoverView.m in Sources */,
+				9343F30E1C0721E0005CFBFF /* VZPDFThumbRender.m in Sources */,
+				9343F3061C0721E0005CFBFF /* VZPDFSourceColorView.m in Sources */,
+				9343F2F11C0721E0005CFBFF /* VZPDFDocumentOutline.m in Sources */,
+				9343F30C1C0721E0005CFBFF /* VZPDFThumbQueue.m in Sources */,
+				9343F2E11C0721E0005CFBFF /* VZPDFColorPickerController.m in Sources */,
+				9343F3001C0721E0005CFBFF /* VZPDFPopoverController.m in Sources */,
+				9343F2F31C0721E0005CFBFF /* VZPDFDrawingTools.m in Sources */,
+				9343F2E71C0721E0005CFBFF /* VZPDFConstants.m in Sources */,
+				9343F3081C0721E0005CFBFF /* VZPDFThumbCache.m in Sources */,
+				9343F29D1C0721C9005CFBFF /* ThumbsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904838511AB6A8C600E62E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343F3921C0724CE005CFBFF /* VZPDFKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		904838581AB6A8C600E62E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904838491AB6A8C600E62E60 /* VirtuosoPDFKit */;
+			targetProxy = 904838571AB6A8C600E62E60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9048385E1AB6A8C600E62E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9048385F1AB6A8C600E62E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		904838611AB6A8C600E62E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VZPDFKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazyprogram.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = VirtuosoPDFKit;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		904838621AB6A8C600E62E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VZPDFKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazyprogram.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = VirtuosoPDFKit;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		904838641AB6A8C600E62E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VZPDFKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazyprogram.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = VirtuosoPDFKit;
+			};
+			name = Debug;
+		};
+		904838651AB6A8C600E62E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VZPDFKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazyprogram.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = VirtuosoPDFKit;
+			};
+			name = Release;
+		};
+		90D421421AC3943800D3CE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = VirtuosoPDFKit;
+			};
+			name = Debug;
+		};
+		90D421431AC3943800D3CE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = VirtuosoPDFKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		904838441AB6A8C600E62E60 /* Build configuration list for PBXProject "VirtuosoPDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9048385E1AB6A8C600E62E60 /* Debug */,
+				9048385F1AB6A8C600E62E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904838601AB6A8C600E62E60 /* Build configuration list for PBXNativeTarget "VirtuosoPDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904838611AB6A8C600E62E60 /* Debug */,
+				904838621AB6A8C600E62E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904838631AB6A8C600E62E60 /* Build configuration list for PBXNativeTarget "VirtuosoPDFKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904838641AB6A8C600E62E60 /* Debug */,
+				904838651AB6A8C600E62E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D421441AC3943800D3CE2A /* Build configuration list for PBXAggregateTarget "VirtuosoPDFKitFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D421421AC3943800D3CE2A /* Debug */,
+				90D421431AC3943800D3CE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9343F3251C072261005CFBFF /* PathModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+			);
+			name = PathModel.xcdatamodeld;
+			path = ../VZPDFKit/PathModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 904838411AB6A8C600E62E60 /* Project object */;
+}
