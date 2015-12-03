@@ -10,7 +10,7 @@ An IOS PDF Framework written in Objective-C
 * Print
 * Bookmark
 * Email PDF
-* Full Text Search across the PDF documents
+* Full Text Search across PDF documents
 
 
 #How to use it
