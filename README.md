@@ -27,7 +27,7 @@ Note : Check out the demo project if you have any doubt.
 #Contact Info
 Website: http://www.nirvaniclabs.com/
 
-Email: info(at)nirvaniclabs(dot)com
+Email: info@nirvaniclabs.com
 
 Twitter: @NirvanicLabs
 
