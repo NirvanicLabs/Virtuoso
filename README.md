@@ -35,5 +35,7 @@ Twitter: @NirvanicLabs
 
 #Acknowledgements
 LazyPDFKit : https://github.com/lazyprogram/LazyPDFKit
+
 PDFKitten  : https://github.com/KurtCode/PDFKitten
+
 VFR Reader : https://github.com/vfr/Reader
