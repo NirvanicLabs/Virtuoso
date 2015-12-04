@@ -19,7 +19,7 @@
 		CGPDFStreamRef stream = nil;
 		if (!CGPDFObjectGetValue(object, kCGPDFObjectTypeStream, &stream)) return;
 		NSData *data = (NSData *) CFBridgingRelease(CGPDFStreamCopyData(stream, nil));
-		NSLog(@"CIDType2Font: no implementation for CID mapping with stream (%d bytes)", [data length]);
+//		NSLog(@"CIDType2Font: no implementation for CID mapping with stream (%d bytes)", [data length]);
 		//[data release];
 	}
 }
@@ -43,7 +43,7 @@
 	NSString *orderingString = (NSString *) CFBridgingRelease(CGPDFStringCopyTextString(ordering));
 	
 	NSString *cidSystemString = [NSString stringWithFormat:@"%@ (%@) %d", registryString, orderingString, supplement];
-	NSLog(@"%@", cidSystemString);
+//	NSLog(@"%@", cidSystemString);
 	
 	//[registryString release];
 	//[orderingString release];
@@ -51,7 +51,7 @@
 
 - (id)initWithFontDictionary:(CGPDFDictionaryRef)dict
 {
-	NSLog(@"CID FONT TYPE 2");
+//	NSLog(@"CID FONT TYPE 2");
 	if ((self = [super initWithFontDictionary:dict]))
 	{
 		[self setCIDToGIDMapWithDictionary:dict];
@@ -70,13 +70,13 @@
 
 		
 		NSData *data = [NSData dataWithBytes:cid length:length];
-		NSLog(@"%@", data);
+//		NSLog(@"%@", data);
 		
 		for (int i = 0; i < length; i+=2)
 		{
 			unichar unicodeValue = cid[i] << 8 | cid[i+1];
 //			unichar unicodeValue = 0x4ea4;  
-			NSLog(@"%C %x", unicodeValue, unicodeValue);
+//			NSLog(@"%C %x", unicodeValue, unicodeValue);
 		}
 		
 		

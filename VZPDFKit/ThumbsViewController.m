@@ -179,7 +179,7 @@
 - (void)viewDidUnload
 {
 #ifdef DEBUG
-	NSLog(@"%s", __FUNCTION__);
+//	NSLog(@"%s", __FUNCTION__);
 #endif
 
 	mainToolbar = nil; theThumbsView = nil;
@@ -220,7 +220,7 @@
 - (void)didReceiveMemoryWarning
 {
 #ifdef DEBUG
-	NSLog(@"%s", __FUNCTION__);
+//	NSLog(@"%s", __FUNCTION__);
 #endif
 
 	[super didReceiveMemoryWarning];

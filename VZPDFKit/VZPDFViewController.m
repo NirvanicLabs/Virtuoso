@@ -516,7 +516,7 @@ VZPDFMainToolbarDelegate, VZPDFMainPagebarDelegate, VZPDFContentViewDelegate, Th
 - (void)viewDidUnload
 {
 #ifdef DEBUG
-    NSLog(@"%s", __FUNCTION__);
+//    NSLog(@"%s", __FUNCTION__);
 #endif
     
     mainToolbar = nil; mainPagebar = nil;
@@ -573,7 +573,7 @@ VZPDFMainToolbarDelegate, VZPDFMainPagebarDelegate, VZPDFContentViewDelegate, Th
 - (void)didReceiveMemoryWarning
 {
 #ifdef DEBUG
-    NSLog(@"%s", __FUNCTION__);
+//    NSLog(@"%s", __FUNCTION__);
 #endif
     
     [super didReceiveMemoryWarning];

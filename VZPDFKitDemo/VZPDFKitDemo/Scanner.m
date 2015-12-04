@@ -140,13 +140,13 @@ void cm(CGPDFScannerRef scanner, void *info);
     CGPDFDictionaryRef dict = CGPDFPageGetDictionary(page);
     if (!dict)
     {
-        NSLog(@"Scanner: fontCollectionWithPage: page dictionary missing");
+      //  NSLog(@"Scanner: fontCollectionWithPage: page dictionary missing");
         return nil;
     }
     CGPDFDictionaryRef resources;
     if (!CGPDFDictionaryGetDictionary(dict, "Resources", &resources))
     {
-        NSLog(@"Scanner: fontCollectionWithPage: page dictionary missing Resources dictionary");
+      //  NSLog(@"Scanner: fontCollectionWithPage: page dictionary missing Resources dictionary");
         return nil;
     }
     CGPDFDictionaryRef fonts;
@@ -338,7 +338,7 @@ void TJ(CGPDFScannerRef scanner, void *info)
                 break;
             }
             default:
-                NSLog(@"Scanner: TJ: Unsupported type: %d", type);
+              //  NSLog(@"Scanner: TJ: Unsupported type: %d", type);
                 break;
         }
     }

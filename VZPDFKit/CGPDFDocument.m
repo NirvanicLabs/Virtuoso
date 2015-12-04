@@ -56,7 +56,7 @@ CGPDFDocumentRef CGPDFDocumentCreateUsingUrl(CFURLRef theURL, NSString *password
 						if (CGPDFDocumentUnlockWithPassword(thePDFDocRef, text) == FALSE) // Log failure
 						{
 							#ifdef DEBUG
-								NSLog(@"CGPDFDocumentCreateUsingUrl: Unable to unlock [%@] with [%@]", theURL, password);
+							//	NSLog(@"CGPDFDocumentCreateUsingUrl: Unable to unlock [%@] with [%@]", theURL, password);
 							#endif
 						}
 					}
@@ -72,7 +72,7 @@ CGPDFDocumentRef CGPDFDocumentCreateUsingUrl(CFURLRef theURL, NSString *password
 	else // Log an error diagnostic
 	{
 		#ifdef DEBUG
-			NSLog(@"CGPDFDocumentCreateUsingUrl: theURL == NULL");
+		//	NSLog(@"CGPDFDocumentCreateUsingUrl: theURL == NULL");
 		#endif
 	}
 
@@ -110,7 +110,7 @@ CGPDFDocumentRef CGPDFDocumentCreateUsingData(CGDataProviderRef dataProvider, NS
 						if (CGPDFDocumentUnlockWithPassword(thePDFDocRef, text) == FALSE) // Log failure
 						{
 							#ifdef DEBUG
-								NSLog(@"CGPDFDocumentCreateUsingData: Unable to unlock data with '%@'", password);
+							//	NSLog(@"CGPDFDocumentCreateUsingData: Unable to unlock data with '%@'", password);
 							#endif
 						}
 					}
@@ -126,7 +126,7 @@ CGPDFDocumentRef CGPDFDocumentCreateUsingData(CGDataProviderRef dataProvider, NS
 	else // Log an error diagnostic
 	{
 		#ifdef DEBUG
-			NSLog(@"CGPDFDocumentCreateUsingData: theURL == NULL");
+		//	NSLog(@"CGPDFDocumentCreateUsingData: theURL == NULL");
 		#endif
 	}
 
@@ -179,7 +179,7 @@ BOOL CGPDFDocumentUrlNeedsPassword(CFURLRef theURL, NSString *password)
 	else // Log an error diagnostic
 	{
 		#ifdef DEBUG
-			NSLog(@"CGPDFDocumentUrlNeedsPassword: theURL == NULL");
+		//	NSLog(@"CGPDFDocumentUrlNeedsPassword: theURL == NULL");
 		#endif
 	}
 
@@ -232,7 +232,7 @@ BOOL CGPDFDocumentDataNeedsPassword(CGDataProviderRef dataProvider, NSString *pa
 	else // Log an error diagnostic
 	{
 		#ifdef DEBUG
-			NSLog(@"CGPDFDocumentUrlNeedsPassword: theURL == NULL");
+		//	NSLog(@"CGPDFDocumentUrlNeedsPassword: theURL == NULL");
 		#endif
 	}
 

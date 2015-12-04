@@ -8,11 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "Scanner.h"
+#import "SearchResultsTableViewController.h"
 
 @interface ViewController : UIViewController<UISearchBarDelegate>
-{
-    IBOutlet UISearchBar *searchBar;
-}
 
+- (IBAction)searchButtonClicked:(id)sender;
 @end
 

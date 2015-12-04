@@ -136,7 +136,7 @@
 						[fileManager removeItemAtPath:cachePath error:NULL];
 
 						#ifdef DEBUG
-							NSLog(@"%s purged %@", __FUNCTION__, cacheName);
+//							NSLog(@"%s purged %@", __FUNCTION__, cacheName);
 						#endif
 					}
 				}

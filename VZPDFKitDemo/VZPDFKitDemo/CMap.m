@@ -9,7 +9,7 @@
 	NSString *content = nil;
 	[scanner scanUpToString:endToken intoString:&content];
 	[scanner scanString:endToken intoString:nil];
-	NSLog(@"%@", content);
+//	NSLog(@"%@", content);
 }
 
 - (void)scanRanges:(NSScanner *)scanner

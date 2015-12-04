@@ -30,7 +30,7 @@
 -(void)dealloc
 {
 #ifdef LazyPDF_DEBUG
-    NSLog(@"LazyPDFTouchView dealloc");
+//    NSLog(@"LazyPDFTouchView dealloc");
 #endif
     
     SAFE_ARC_RELEASE(_insideBlock);

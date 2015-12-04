@@ -55,7 +55,7 @@ static PathDataManager *instance = nil;
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
             // Replace this implementation with code to handle the error appropriately.
             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-            NSLog(@"LazyPDF :: Unresolved error %@, %@", error, [error userInfo]);
+           // NSLog(@"LazyPDF :: Unresolved error %@, %@", error, [error userInfo]);
             abort();
         }
     }
@@ -100,13 +100,13 @@ static PathDataManager *instance = nil;
     if (_persistentStoreCoordinator != nil) {
         return _persistentStoreCoordinator;
     }
-    NSLog(@"[self applicationDocumentsDirectory] : %@",[self applicationDocumentsDirectory]);
+    //NSLog(@"[self applicationDocumentsDirectory] : %@",[self applicationDocumentsDirectory]);
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"PathModel"];
     
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
-        NSLog(@"Path :: Unresolved error %@, %@", error, [error userInfo]);
+//        NSLog(@"Path :: Unresolved error %@, %@", error, [error userInfo]);
         abort();
     }
     
@@ -149,7 +149,7 @@ static PathDataManager *instance = nil;
     NSError *error = nil;
     // Save the object to persistent store
     if (![self.managedObjectContext save:&error]) {
-    NSLog(@"Can't Save! %@ %@", error, [error localizedDescription]);
+//    NSLog(@"Can't Save! %@ %@", error, [error localizedDescription]);
     }
     
     [[self.managedObjectContext undoManager]endUndoGrouping];

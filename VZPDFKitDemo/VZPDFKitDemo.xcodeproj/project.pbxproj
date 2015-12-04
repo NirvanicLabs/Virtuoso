@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831D2A971C1072E70003FB04 /* SearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 831D2A951C1072E70003FB04 /* SearchResultTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		831D2A981C1072E70003FB04 /* SearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831D2A961C1072E70003FB04 /* SearchResultTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		83293E731C106E8200ABC393 /* SearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83293E721C106E8200ABC393 /* SearchResultsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		9343F3CC1C07258C005CFBFF /* DevelopersGuide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3A11C07258C005CFBFF /* DevelopersGuide.pdf */; };
-		9343F3CD1C07258C005CFBFF /* Document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9343F3A21C07258C005CFBFF /* Document.pdf */; };
 		9343F3CE1C07258C005CFBFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3A41C07258C005CFBFF /* AppDelegate.m */; };
 		9343F3CF1C07258C005CFBFF /* CIDType0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3A61C07258C005CFBFF /* CIDType0Font.m */; };
 		9343F3D01C07258C005CFBFF /* CIDType2Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F3A81C07258C005CFBFF /* CIDType2Font.m */; };
@@ -83,11 +85,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		831D2A941C1072E70003FB04 /* SearchResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		831D2A951C1072E70003FB04 /* SearchResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		831D2A961C1072E70003FB04 /* SearchResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		83293E711C106E8200ABC393 /* SearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsTableViewController.h; sourceTree = SOURCE_ROOT; };
+		83293E721C106E8200ABC393 /* SearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsTableViewController.m; sourceTree = SOURCE_ROOT; };
 		902D28201AC3AE6100BADF2C /* VZPDFKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VZPDFKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		902D28391AC3AE6100BADF2C /* VZPDFKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VZPDFKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9343F3971C072538005CFBFF /* VirtuosoPDFKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VirtuosoPDFKit.xcodeproj; path = ../VirtuosoPDFKit.xcodeproj; sourceTree = "<group>"; };
 		9343F3A11C07258C005CFBFF /* DevelopersGuide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = DevelopersGuide.pdf; path = VZPDFKitDemo/DevelopersGuide.pdf; sourceTree = SOURCE_ROOT; };
-		9343F3A21C07258C005CFBFF /* Document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Document.pdf; path = VZPDFKitDemo/Document.pdf; sourceTree = SOURCE_ROOT; };
 		9343F3A31C07258C005CFBFF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VZPDFKitDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		9343F3A41C07258C005CFBFF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VZPDFKitDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		9343F3A51C07258C005CFBFF /* CIDType0Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CIDType0Font.h; path = VZPDFKitDemo/CIDType0Font.h; sourceTree = SOURCE_ROOT; };
@@ -154,6 +160,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		831D2A8E1C1071870003FB04 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				83293E711C106E8200ABC393 /* SearchResultsTableViewController.h */,
+				83293E721C106E8200ABC393 /* SearchResultsTableViewController.m */,
+				831D2A941C1072E70003FB04 /* SearchResultTableViewCell.h */,
+				831D2A951C1072E70003FB04 /* SearchResultTableViewCell.m */,
+				831D2A961C1072E70003FB04 /* SearchResultTableViewCell.xib */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
 		902D28171AC3AE6100BADF2C = {
 			isa = PBXGroup;
 			children = (
@@ -176,9 +194,9 @@
 		902D28221AC3AE6100BADF2C /* VZPDFKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				831D2A8E1C1071870003FB04 /* Search */,
 				9343F3FA1C072B56005CFBFF /* Main.storyboard */,
 				9343F3A11C07258C005CFBFF /* DevelopersGuide.pdf */,
-				9343F3A21C07258C005CFBFF /* Document.pdf */,
 				9343F3E41C072599005CFBFF /* Scanner */,
 				9343F3A31C07258C005CFBFF /* AppDelegate.h */,
 				9343F3A41C07258C005CFBFF /* AppDelegate.m */,
@@ -378,9 +396,9 @@
 				9343F3FD1C072B56005CFBFF /* Main.storyboard in Resources */,
 				9343F3CC1C07258C005CFBFF /* DevelopersGuide.pdf in Resources */,
 				9343F3E31C07258C005CFBFF /* Images.xcassets in Resources */,
-				9343F3CD1C07258C005CFBFF /* Document.pdf in Resources */,
 				9343F3F51C0727D2005CFBFF /* Info.plist in Resources */,
 				9343F3FC1C072B56005CFBFF /* LaunchScreen.xib in Resources */,
+				831D2A981C1072E70003FB04 /* SearchResultTableViewCell.xib in Resources */,
 				9343F3D61C07258C005CFBFF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831D2A971C1072E70003FB04 /* SearchResultTableViewCell.m in Sources */,
 				9343F3DA1C07258C005CFBFF /* Scanner.m in Sources */,
 				9343F3CE1C07258C005CFBFF /* AppDelegate.m in Sources */,
 				9343F3DD1C07258C005CFBFF /* StringDetector.m in Sources */,
@@ -409,6 +428,7 @@
 				9343F3D51C07258C005CFBFF /* FontDescriptor.m in Sources */,
 				9343F3D81C07258C005CFBFF /* MMType1Font.m in Sources */,
 				9343F3D11C07258C005CFBFF /* CMap.m in Sources */,
+				83293E731C106E8200ABC393 /* SearchResultsTableViewController.m in Sources */,
 				9343F3D21C07258C005CFBFF /* CompositeFont.m in Sources */,
 				9343F3DB1C07258C005CFBFF /* Selection.m in Sources */,
 				9343F3DE1C07258C005CFBFF /* TrueTypeFont.m in Sources */,

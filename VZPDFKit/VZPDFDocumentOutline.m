@@ -46,22 +46,22 @@ void logDictionaryEntry(const char *key, CGPDFObjectRef object, void *info)
 	{
 		case kCGPDFObjectTypeNull:
 			kind = @"CGPDFObjectTypeNull";
-			NSLog(@"%s %@", key, kind);
+//			NSLog(@"%s %@", key, kind);
 			break;
 
 		case kCGPDFObjectTypeBoolean:
 			kind = @"CGPDFObjectTypeBoolean";
-			NSLog(@"%s %@", key, kind);
+//			NSLog(@"%s %@", key, kind);
 			break;
 
 		case kCGPDFObjectTypeInteger:
 			kind = @"CGPDFObjectTypeInteger";
-			NSLog(@"%s %@", key, kind);
+//			NSLog(@"%s %@", key, kind);
 			break;
 
 		case kCGPDFObjectTypeReal:
 			kind = @"CGPDFObjectTypeReal";
-			NSLog(@"%s %@", key, kind);
+//			NSLog(@"%s %@", key, kind);
 			break;
 
 		case kCGPDFObjectTypeName:
@@ -70,7 +70,7 @@ void logDictionaryEntry(const char *key, CGPDFObjectRef object, void *info)
 
 			if (CGPDFObjectGetValue(object, kCGPDFObjectTypeName, &pdfName))
 			{
-				if (pdfName != NULL) NSLog(@"%s %@ %s", key, kind, pdfName);
+//				if (pdfName != NULL) NSLog(@"%s %@ %s", key, kind, pdfName);
 			}
 			break;
 		}
@@ -90,17 +90,17 @@ void logDictionaryEntry(const char *key, CGPDFObjectRef object, void *info)
 
 		case kCGPDFObjectTypeArray:
 			kind = @"CGPDFObjectTypeArray";
-			NSLog(@"%s %@", key, kind);
+//			NSLog(@"%s %@", key, kind);
 			break;
 
 		case kCGPDFObjectTypeDictionary:
 			kind = @"CGPDFObjectTypeDictionary";
-			NSLog(@"%s %@", key, kind);
+//			NSLog(@"%s %@", key, kind);
 			break;
 
 		case kCGPDFObjectTypeStream:
 			kind = @"CGPDFObjectTypeStream";
-			NSLog(@"%s %@", key, kind);
+//			NSLog(@"%s %@", key, kind);
 			break;
 	}
 }
@@ -113,7 +113,7 @@ void logDictionaryEntry(const char *key, CGPDFObjectRef object, void *info)
 	{
 		NSInteger indent = (item.level * 2); // Indent amount for NSLog output
 
-		NSLog(@"%@%@", [@"" stringByPaddingToLength:indent withString:@" " startingAtIndex:0], item);
+//		NSLog(@"%@%@", [@"" stringByPaddingToLength:indent withString:@" " startingAtIndex:0], item);
 
 		[self logDocumentOutlineArray:item.children]; // Log any child entries
 	}

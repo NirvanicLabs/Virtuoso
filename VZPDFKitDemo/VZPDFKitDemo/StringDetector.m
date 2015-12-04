@@ -103,7 +103,7 @@
 {
     NSString *unicodeString = [font unicodeWithPDFString:string];
     NSString *unicodeLower = [unicodeString lowercaseString];
-    NSLog(@"%@",unicodeString);
+   // NSLog(@"%@",unicodeString);
     [unicodeContent appendString:unicodeString];
     
     for (int i = 0; i < [unicodeString length]; i++)
